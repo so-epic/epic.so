@@ -6,7 +6,7 @@ function PabloVidal() {
   return (
     <div class="container h-screen mt-64">
       {/* <img class="mt-8 -ml-24 inset-16" src={CurvedLines} alt="" /> */}
-      <img class="-mt-48" src={PabloVidalImage} alt="PabloVidal" />
+      <img class="-mt-48 w-full" src={PabloVidalImage} alt="PabloVidal" />
       <h1 class="font-beBetter font-medium text-personNameSize text-beBetterBlue leading-tight ml-8 mt-8">
         Pablo Vidal<br/>
         Areán

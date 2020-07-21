@@ -7,7 +7,9 @@ module.exports = {
         "beBetterSize": "35px",
         "descriptionSize": "14px",
         "personNameSize": "40px",
-        "personJobSize": "22px"
+        "personJobSize": "22px",
+        "contactFontSize": "16px",
+        "menuFontSize": "10px"
       },
       colors: {
         "epicTitleBlue" : "#0891C4",
@@ -27,6 +29,9 @@ module.exports = {
       },
       margin: {
         "28": "30%"
+      },
+      height: {
+        "28": "7rem"
       }
     },
   },

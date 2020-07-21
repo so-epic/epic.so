@@ -6359,6 +6359,10 @@ video {
   height: 6rem;
 }
 
+.h-28 {
+  height: 7rem;
+}
+
 .h-32 {
   height: 8rem;
 }
@@ -6453,6 +6457,14 @@ video {
 
 .text-personJobSize {
   font-size: 22px;
+}
+
+.text-contactFontSize {
+  font-size: 16px;
+}
+
+.text-menuFontSize {
+  font-size: 10px;
 }
 
 .leading-3 {
@@ -20450,6 +20462,10 @@ video {
     height: 6rem;
   }
 
+  .sm\:h-28 {
+    height: 7rem;
+  }
+
   .sm\:h-32 {
     height: 8rem;
   }
@@ -20544,6 +20560,14 @@ video {
 
   .sm\:text-personJobSize {
     font-size: 22px;
+  }
+
+  .sm\:text-contactFontSize {
+    font-size: 16px;
+  }
+
+  .sm\:text-menuFontSize {
+    font-size: 10px;
   }
 
   .sm\:leading-3 {
@@ -34542,6 +34566,10 @@ video {
     height: 6rem;
   }
 
+  .md\:h-28 {
+    height: 7rem;
+  }
+
   .md\:h-32 {
     height: 8rem;
   }
@@ -34636,6 +34664,14 @@ video {
 
   .md\:text-personJobSize {
     font-size: 22px;
+  }
+
+  .md\:text-contactFontSize {
+    font-size: 16px;
+  }
+
+  .md\:text-menuFontSize {
+    font-size: 10px;
   }
 
   .md\:leading-3 {
@@ -48634,6 +48670,10 @@ video {
     height: 6rem;
   }
 
+  .lg\:h-28 {
+    height: 7rem;
+  }
+
   .lg\:h-32 {
     height: 8rem;
   }
@@ -48728,6 +48768,14 @@ video {
 
   .lg\:text-personJobSize {
     font-size: 22px;
+  }
+
+  .lg\:text-contactFontSize {
+    font-size: 16px;
+  }
+
+  .lg\:text-menuFontSize {
+    font-size: 10px;
   }
 
   .lg\:leading-3 {
@@ -62726,6 +62774,10 @@ video {
     height: 6rem;
   }
 
+  .xl\:h-28 {
+    height: 7rem;
+  }
+
   .xl\:h-32 {
     height: 8rem;
   }
@@ -62820,6 +62872,14 @@ video {
 
   .xl\:text-personJobSize {
     font-size: 22px;
+  }
+
+  .xl\:text-contactFontSize {
+    font-size: 16px;
+  }
+
+  .xl\:text-menuFontSize {
+    font-size: 10px;
   }
 
   .xl\:leading-3 {
