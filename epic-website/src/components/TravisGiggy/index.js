@@ -5,8 +5,8 @@ import TravisGiggyImage from '../../assets/images/travis-giggy.png'
 
 function TravisGiggy() {
   return (
-    <div class="container mt-56">
-      <img class="mt-8 ml-56 inset-16" src={CurvedLines} alt="" />
+    <div class="container h-screen mt-56">
+      {/* <img class="mt-8 ml-56 inset-16" src={CurvedLines} alt="" /> */}
       <img class="-mt-48" src={TravisGiggyImage} alt="TravisGiggy" />
       <h1 class="font-beBetter font-medium text-personNameSize text-beBetterBlue leading-tight ml-8 mt-8">
         Travis Giggy
