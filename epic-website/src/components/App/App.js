@@ -8,6 +8,7 @@ import Introduction from '../Introduction'
 import PabloVidal from '../PabloVidal'
 import TravisGiggy from '../TravisGiggy'
 import Methodology from '../Methodology'
+import StayInTouch from '../StayInTouch'
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <PabloVidal />
       <TravisGiggy />
       <Methodology />
+      <StayInTouch />
     </div>
   );
 }

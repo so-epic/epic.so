@@ -17,11 +17,13 @@ module.exports = {
         "epicTitleBlue" : "#0891C4",
         "beBetterBlue": "#011865",
         "personDescriptionColor": "#303030",
+        "stayInTouchDescriptionColor": "#191919"
        
       },
       backgroundColor: {
         "blueButtonColor": "#0891C4",
-        "lightBlue": "#F9FBFF"
+        "lightBlue": "#F9FBFF",
+        "stayInTouchBlue": "#011865"
       },
       fontFamily: {
         "epicLogo": ["Comfortaa", "Sans-serif"],
@@ -34,13 +36,18 @@ module.exports = {
         "28": "30%"
       },
       height: {
-        "28": "7rem"
+        "28": "7rem",
+        "70": "24rem"
       },
       width: {
-        "124": "25rem"
+        "124": "25rem",
+        "112": "21rem"
       },
       spacing: {
         "124": "-24rem"
+      },
+      borderColor: {
+        "epicBlue": "#011865"
       }
     },
   },
