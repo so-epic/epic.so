@@ -4,7 +4,7 @@ import MenuButtonSVG from '../../assets/images/menu-button.svg'
 
 function MenuButton() {
   return (
-    <div class="fixed">
+    <div class="fixed z-20">
       <svg class="font-beBetter font-bold text-menuFontSize" width="97" height="90">
         <defs>
         <clipPath mlns="http://www.w3.org/2000/svg" >

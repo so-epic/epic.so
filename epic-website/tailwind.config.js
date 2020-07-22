@@ -9,7 +9,9 @@ module.exports = {
         "personNameSize": "40px",
         "personJobSize": "22px",
         "contactFontSize": "16px",
-        "menuFontSize": "10px"
+        "menuFontSize": "10px",
+        "methodologyTitleSize": "25px",
+        "numberSize": "5.6rem"
       },
       colors: {
         "epicTitleBlue" : "#0891C4",
@@ -18,7 +20,8 @@ module.exports = {
        
       },
       backgroundColor: {
-        "blueButtonColor": "#0891C4"
+        "blueButtonColor": "#0891C4",
+        "lightBlue": "#F9FBFF"
       },
       fontFamily: {
         "epicLogo": ["Comfortaa", "Sans-serif"],
@@ -32,6 +35,12 @@ module.exports = {
       },
       height: {
         "28": "7rem"
+      },
+      width: {
+        "124": "25rem"
+      },
+      spacing: {
+        "124": "-24rem"
       }
     },
   },
