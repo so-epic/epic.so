@@ -9,6 +9,8 @@ import PabloVidal from '../PabloVidal'
 import TravisGiggy from '../TravisGiggy'
 import Methodology from '../Methodology'
 import StayInTouch from '../StayInTouch'
+import Services from '../Services'
+// import Footer from '../Footer'
 
 function App() {
   return (
@@ -20,6 +22,8 @@ function App() {
       <TravisGiggy />
       <Methodology />
       <StayInTouch />
+      <Services />
+      {/* <Footer /> */}
     </div>
   );
 }
