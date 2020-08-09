@@ -30,8 +30,8 @@ function TravisGiggy() {
         <h2 class="font-beBetter ml-8 font-medium text-personJobSize text-personDescriptionColor mt-4">
           Growth Expert
         </h2>
-      <button class="mx-28 md:mx-0 bg-buttonColor w-40 h-6 text-white text-buttonSize font-beBetter font-medium rounded-xlg mt-8 mb-16">
-        see more
+      <button class="mx-28 md:ml-8 bg-buttonColor w-40 h-6 text-white text-buttonSize font-beBetter font-medium rounded-xlg mt-8 mb-16">
+        See more
       </button>
       </div>
     </div>
