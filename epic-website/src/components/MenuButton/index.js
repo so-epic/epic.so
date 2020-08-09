@@ -25,7 +25,7 @@ function MenuMaximized(){
 
 function MenuButton() {
   return (
-    <div class="fixed z-20">
+    <div class="fixed z-20 md:hidden">
       <MenuMinimized />
     </div>
   )

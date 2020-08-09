@@ -1,16 +1,40 @@
-import React from 'react'
+import React, { useState} from 'react'
+
+import { useMorph, useFade, useMorphKeys } from 'react-morph';
+
+import { easeInSin, easeOutSin, easeIn, easeOut } from 'react-morph';
 
 import ContactButtonSVG from '../../assets/images/contact-button.svg'
+import ContactButtonHoverSVG from '../../assets/images/contact-button-hover.svg'
 
 function ContactButton() {
+  const [toggle, setToggle] = useState(true);
+  
+
+  // const morph = useMorph({
+  //   easings: {
+  //     translateX: easeOutSin,
+  //     translateY: easeInSin,
+  //     scaleX: easeIn,
+  //     scaleY: easeOut
+  //   },
+  // });
+
+  const spring = { damping: 100, stiffness: 50 }
+  const fadeIn = useFade({ spring, isInitial: toggle, delaysRatio: 1 })
+  const fadeOut = useFade({ spring, isInitial: !toggle })
+
+  const morph = useMorph()
+
   return (
-    <div class="fixed bottom-0 right-0 bg-transaparent">
-      <svg class="w-32 h-24 font-beBetter font-bold text-contactFontSize" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-        <g fill="#011865">
-        <path d="M90.485 146.742c-18.756 0-32.225-1.67-43.67-5.416-6.637-2.171-12.493-5.015-17.904-8.693-5.74-3.903-10.823-8.633-15.537-14.462-4.516-5.583-7.797-11.953-9.752-18.932C1.854 92.93 1.185 86.22 1.635 79.296A66.908 66.908 0 015.54 60.803c2.028-5.519 4.74-10.52 7.845-14.465 6.122-7.778 16.534-10.905 27.558-14.215 10.96-3.292 22.292-6.695 30.545-14.986C81.964 6.615 92.55 1.5 103.851 1.5c3.6 0 7.339.532 11.114 1.58 3.893 1.083 7.953 2.75 12.065 4.956 5.685 3.05 10.385 6.525 14.367 10.623 4.073 4.191 7.313 8.947 9.903 14.538 2.626 5.67 4.522 12.058 5.796 19.531 1.271 7.46 1.889 15.805 1.889 25.514 0 9.248-1.81 18.219-5.382 26.663a68.502 68.502 0 01-6.316 11.635 69 69 0 01-8.365 10.139 68.999 68.999 0 01-10.139 8.365 68.502 68.502 0 01-11.635 6.316c-8.444 3.571-17.415 5.382-26.663 5.382z"/><path d="M103.851 3C92.97 3 82.731 7.97 72.553 18.195c-3.848 3.865-8.7 7.048-14.835 9.73-5.3 2.318-10.914 4.004-16.343 5.634-10.79 3.24-20.981 6.301-26.81 13.706-3.008 3.823-5.642 8.683-7.616 14.056A65.388 65.388 0 003.13 79.394c-.438 6.754.213 13.295 1.935 19.44 1.9 6.782 5.088 12.97 9.474 18.394 4.62 5.713 9.597 10.346 15.214 14.164 5.294 3.599 11.026 6.382 17.527 8.509 11.289 3.694 24.613 5.341 43.204 5.341 9.046 0 17.82-1.771 26.078-5.264a67 67 0 0011.38-6.177 67.495 67.495 0 009.918-8.183 67.495 67.495 0 008.183-9.918 67 67 0 006.177-11.38c3.493-8.258 5.264-17.032 5.264-26.078 0-9.623-.611-17.887-1.868-25.262-1.251-7.34-3.108-13.605-5.678-19.152-2.518-5.436-5.664-10.056-9.617-14.124-3.874-3.986-8.454-7.37-14.001-10.346-4.015-2.154-7.97-3.78-11.758-4.832C110.92 3.513 107.315 3 103.851 3m0-3c7.414 0 15.33 2.123 23.888 6.714 22.797 12.23 32.746 32.868 32.746 71.528 0 38.66-31.34 70-70 70-32.9 0-58.708-4.931-78.277-29.128-19.57-24.197-12.618-57.674 0-73.704C24.825 29.38 54.18 32.398 70.426 16.079 80.574 5.886 91.514-.001 103.851-.001z" fill="none"/></g><text transform="translate(24.485 84.242)" fill="#fff"><tspan x="0" y="-15">CONTACT</tspan></text>
-      </svg>
+    <div class="fixed bottom-0 right-0 -mr-8 md:-mr-8 bg-transparent z-40" onClick={() => setToggle(!toggle)}>
+      {toggle ? (
+        <img {...morph} {...fadeIn} src={ContactButtonSVG} width="80%" />
+      ) : (
+        <img class="" {...morph} {...fadeOut} src={ContactButtonHoverSVG} width="100%" />
+      )}
     </div>
-  )
+  );
 }
 
 export default ContactButton;

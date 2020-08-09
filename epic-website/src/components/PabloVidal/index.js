@@ -2,36 +2,38 @@ import React from 'react'
 
 import CurvedLines from '../../assets/images/curved-lines.svg'
 import PabloVidalImage from '../../assets/images/pablo-vidal.png'
+import ProfileDecoration from '../../assets/images/profile-decoration.svg'
 function PabloVidal() {
   return (
-    <div class="flex flex-col items-center container h-full mt-16">
-      <div class="self-start">
-        <img class="object-contain -mr-24 self-end inset-16" src={CurvedLines} alt="" />
+    <div class="flex flex-col md:flex-row md:justify-center items-center h-full mt-16 mb-16">
+      <div class="md:flex md:flex-col md:self-start md:order-2 md:-mt-8">
+        <img class="object-contain -ml-24 -mr-24 self-end inset-16 md:w-56" src={CurvedLines} alt="" />
+        <img class="z-10 -mt-40 md:-mt-32 md:w-126" src={PabloVidalImage} alt="PabloVidal" />
       </div>
-      <img class="-mt-24" src={PabloVidalImage} alt="PabloVidal" />
-      <div class="flex flex-col self-start ml-8">
-        <h1 class="font-beBetter font-medium text-personNameSize text-beBetterBlue leading-tight mt-8">
+      <img class="absolute hidden md:inline self-end right-0 mt-24" src={ProfileDecoration} alt="PabloVidal" />
+      <div class="flex flex-col md:min-w-1/2 self-start">
+        <h1 class="font-beBetter ml-8 font-medium text-personNameSize md:text-personNameMdSize text-beBetterBlue leading-tight mt-8">
           Pablo Vidal<br/>
           Areán
         </h1>
-        <p class="font-beBetter font-regular text-descriptionSize text-personDescriptionColor tracking-widest leading-7 mt-4">
-          Pablo Vidal Arean is an accomplished<br/>
-          Senior Executive, Enterpreunuer, Advisor,<br/>
-          and Board Member with more than<br/>
-          25 years of success across the<br/>
-          information services and technology,<br/>
-          marketing and advertising,<br/>
-          telecommunications,leisu leisure and<br/>
+        <p class="font-beBetter ml-8 md:max-w-md font-regular text-descriptionSize text-personDescriptionColor tracking-widest leading-7 mt-4 breaking-normal">
+          Pablo Vidal Arean is an accomplished
+          Senior Executive, Enterpreunuer, Advisor,
+          and Board Member with more than
+          25 years of success across the
+          information services and technology,
+          marketing and advertising,
+          telecommunications,leisu leisure and
           travel industries
         </p>
-        <h2 class="font-beBetter font-medium text-personJobSize text-personDescriptionColor mt-4">
-          Strategy, Marketing and<br/>
+        <h2 class="font-beBetter ml-8 font-medium text-personJobSize text-personDescriptionColor mt-4">
+          Strategy, Marketing and
           Growth expert
         </h2>
+        <button class="mx-28 md:mx-0 bg-buttonColor w-40 h-6 text-white text-buttonSize font-beBetter font-medium rounded-xlg mt-8 mb-16">
+          see more
+        </button>
       </div>
-      <button class="mx-28 bg-buttonColor w-40 h-6 text-white text-buttonSize font-beBetter font-medium rounded-xlg mt-8 mb-16">
-        see more
-      </button>
     </div>
   );
 }

@@ -6647,6 +6647,10 @@ video {
   font-size: 40px;
 }
 
+.text-personNameMdSize {
+  font-size: 80px;
+}
+
 .text-personJobSize {
   font-size: 22px;
 }
@@ -6669,6 +6673,10 @@ video {
 
 .text-buttonSize {
   font-size: 20px;
+}
+
+.text-beBetterMdSize {
+  font-size: 45px;
 }
 
 .leading-3 {
@@ -8067,6 +8075,10 @@ video {
 
 .min-w-full {
   min-width: 100%;
+}
+
+.min-w-1\/2 {
+  min-width: 50%;
 }
 
 .object-contain {
@@ -12439,6 +12451,10 @@ video {
 
 .w-124 {
   width: 25rem;
+}
+
+.w-126 {
+  width: 26rem;
 }
 
 .w-auto {
@@ -21145,6 +21161,10 @@ video {
     font-size: 40px;
   }
 
+  .sm\:text-personNameMdSize {
+    font-size: 80px;
+  }
+
   .sm\:text-personJobSize {
     font-size: 22px;
   }
@@ -21167,6 +21187,10 @@ video {
 
   .sm\:text-buttonSize {
     font-size: 20px;
+  }
+
+  .sm\:text-beBetterMdSize {
+    font-size: 45px;
   }
 
   .sm\:leading-3 {
@@ -22565,6 +22589,10 @@ video {
 
   .sm\:min-w-full {
     min-width: 100%;
+  }
+
+  .sm\:min-w-1\/2 {
+    min-width: 50%;
   }
 
   .sm\:object-contain {
@@ -26937,6 +26965,10 @@ video {
 
   .sm\:w-124 {
     width: 25rem;
+  }
+
+  .sm\:w-126 {
+    width: 26rem;
   }
 
   .sm\:w-auto {
@@ -35644,6 +35676,10 @@ video {
     font-size: 40px;
   }
 
+  .md\:text-personNameMdSize {
+    font-size: 80px;
+  }
+
   .md\:text-personJobSize {
     font-size: 22px;
   }
@@ -35666,6 +35702,10 @@ video {
 
   .md\:text-buttonSize {
     font-size: 20px;
+  }
+
+  .md\:text-beBetterMdSize {
+    font-size: 45px;
   }
 
   .md\:leading-3 {
@@ -37064,6 +37104,10 @@ video {
 
   .md\:min-w-full {
     min-width: 100%;
+  }
+
+  .md\:min-w-1\/2 {
+    min-width: 50%;
   }
 
   .md\:object-contain {
@@ -41436,6 +41480,10 @@ video {
 
   .md\:w-124 {
     width: 25rem;
+  }
+
+  .md\:w-126 {
+    width: 26rem;
   }
 
   .md\:w-auto {
@@ -50143,6 +50191,10 @@ video {
     font-size: 40px;
   }
 
+  .lg\:text-personNameMdSize {
+    font-size: 80px;
+  }
+
   .lg\:text-personJobSize {
     font-size: 22px;
   }
@@ -50165,6 +50217,10 @@ video {
 
   .lg\:text-buttonSize {
     font-size: 20px;
+  }
+
+  .lg\:text-beBetterMdSize {
+    font-size: 45px;
   }
 
   .lg\:leading-3 {
@@ -51563,6 +51619,10 @@ video {
 
   .lg\:min-w-full {
     min-width: 100%;
+  }
+
+  .lg\:min-w-1\/2 {
+    min-width: 50%;
   }
 
   .lg\:object-contain {
@@ -55935,6 +55995,10 @@ video {
 
   .lg\:w-124 {
     width: 25rem;
+  }
+
+  .lg\:w-126 {
+    width: 26rem;
   }
 
   .lg\:w-auto {
@@ -64642,6 +64706,10 @@ video {
     font-size: 40px;
   }
 
+  .xl\:text-personNameMdSize {
+    font-size: 80px;
+  }
+
   .xl\:text-personJobSize {
     font-size: 22px;
   }
@@ -64664,6 +64732,10 @@ video {
 
   .xl\:text-buttonSize {
     font-size: 20px;
+  }
+
+  .xl\:text-beBetterMdSize {
+    font-size: 45px;
   }
 
   .xl\:leading-3 {
@@ -66062,6 +66134,10 @@ video {
 
   .xl\:min-w-full {
     min-width: 100%;
+  }
+
+  .xl\:min-w-1\/2 {
+    min-width: 50%;
   }
 
   .xl\:object-contain {
@@ -70434,6 +70510,10 @@ video {
 
   .xl\:w-124 {
     width: 25rem;
+  }
+
+  .xl\:w-126 {
+    width: 26rem;
   }
 
   .xl\:w-auto {

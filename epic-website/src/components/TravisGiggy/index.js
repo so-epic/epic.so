@@ -2,36 +2,38 @@ import React from 'react'
 
 import CurvedLines from '../../assets/images/curved-lines.svg'
 import TravisGiggyImage from '../../assets/images/travis-giggy.png'
+import ProfileDecoration2 from '../../assets/images/profile-decoration2.svg'
 
 function TravisGiggy() {
   return (
-    <div class="flex flex-col items-center container h-full mt-4">
-      <div class="self-end">
-        <img class="object-contain -mr-24 self-end inset-16" src={CurvedLines} alt="" />
+    <div class="flex flex-col md:flex-row md:justify-around items-center h-full mt-4 mb-32">
+      <div class="md:flex md:flex-col md:self-start md:order-1 md:-mt-8 md:ml-32 md:px-16">
+        <img class="object-contain -ml-24 md:-ml-24 inset-16 md:w-56" src={CurvedLines} alt="" />
+        <img class="z-10 -mt-40 md:mt-0 md:-mt-32 md:w-126" src={TravisGiggyImage} alt="PabloVidal" />
       </div>
-      <img class="z-10 -mt-24" src={TravisGiggyImage} alt="TravisGiggy" />
-      <div class="flex flex-col self-start ml-8">
-        <h1 class="font-beBetter font-medium text-personNameSize text-beBetterBlue leading-tight mt-8">
+      <img class="absolute hidden md:inline self-end right-0 mt-24" src={ProfileDecoration2} alt="PabloVidal" />
+      <div class="flex flex-col md:min-w-1/2 md:px-64 md:order-2">
+        <h1 class="font-beBetter ml-8 font-medium text-personNameSize md:text-personNameMdSize text-beBetterBlue leading-tight mt-8">
           Travis Giggy
         </h1>
-        <p class="font-beBetter font-regular text-descriptionSize text-personDescriptionColor tracking-widest leading-7 mt-4">
-          Travis Giggy is a serial enterpreneur in<br/>
-          Silicon Valley with more than 20 years<br/>
-          leading product and technology teams.<br/>
-          He is a technology expert, angel investor,<br/>
-          advisor, and shareholder in many tech<br/>
-          startups. His areas of expertise include<br/>
-          databases, programming, customer<br/>
-          development, product management, big <br/>
+        <p class="font-beBetter ml-8 md:max-w-md font-regular text-descriptionSize text-personDescriptionColor tracking-widest leading-7 mt-4 breaking-normal">
+          Travis Giggy is a serial enterpreneur in
+          Silicon Valley with more than 20 years
+          leading product and technology teams.
+          He is a technology expert, angel investor,
+          advisor, and shareholder in many tech
+          startups. His areas of expertise include
+          databases, programming, customer
+          development, product management, big 
           data analysis, and financial engineering.
         </p>
-        <h2 class="font-beBetter font-medium text-personJobSize text-personDescriptionColor mt-4">
+        <h2 class="font-beBetter ml-8 font-medium text-personJobSize text-personDescriptionColor mt-4">
           Growth Expert
         </h2>
-      </div>
-      <button class="mx-28 bg-buttonColor w-40 h-6 text-white text-buttonSize font-beBetter font-medium rounded-xlg mt-8 mb-16">
+      <button class="mx-28 md:mx-0 bg-buttonColor w-40 h-6 text-white text-buttonSize font-beBetter font-medium rounded-xlg mt-8 mb-16">
         see more
       </button>
+      </div>
     </div>
   );
 }

@@ -1,0 +1,8 @@
+.line {
+  transition: transform .9s;
+  transform: translateX(-41%)
+}
+
+.line:hover {
+  transform: translateX(0%)
+}

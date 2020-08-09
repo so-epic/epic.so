@@ -1,0 +1,11 @@
+@media (min-width: 768px) {
+  .introduction-div {
+    background-image: url("../../assets/images/web-introduction-bg.svg");
+  }
+}
+
+@media (max-width: 768px) {
+  .introduction-div {
+    background-image: url("../../assets/images/mobile-introduction-bg.svg")
+  }
+}
