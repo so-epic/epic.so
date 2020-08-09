@@ -2,7 +2,7 @@ import React from 'react'
 
 import Magnetic from '../../assets/images/magnetic.svg'
 
-function MagneticIcon() {
+const MagneticIcon = () => {
   return(
     <div>
       <img src={Magnetic} />

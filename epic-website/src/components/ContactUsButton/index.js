@@ -18,7 +18,7 @@ function ContactUsButton() {
   return (
     <div class="" onMouseOver={() => setToggle(!toggle)} onMouseOut={() => setToggle(true)}>
       {toggle ? (
-        <button class="bg-buttonColor w-40 h-6 text-white text-buttonSize font-beBetter font-medium rounded-xlg mt-8 mb-16">
+        <button class="bg-buttonColor w-40 h-6 text-white text-buttonSize font-beBetter font-medium rounded-xlg mt-8 md:-mt-4 mb-16">
           Contact us
         </button>
       ) : (

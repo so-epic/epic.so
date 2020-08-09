@@ -1,33 +1,35 @@
 import React from 'react';
 
+import "./services.css"
+
 import PeopleIcon from '../PeopleIcon'
 import MagneticIcon from '../MagneticIcon'
 import ConnectionIcon from '../ConnectionIcon'
 import ContactUsButton from '../ContactUsButton'
 
-function Services() {
+const Services = () =>  {
   return(
     <div class="flex flex-col items-center h-full mt-32 space-y-16">
-      <div class="flex flex-col space-y-16 md:flex-row md:space-x-16 md:space-y-0 md:justify-center">
-        <div class="flex flex-col items-center space-y-4">
+      <div class="flex md:flex-wrap flex-col space-y-16 md:flex-row md:ml-24 md:space-y-0 md:justify-center">
+        <div class="flex flex-col md:w-2/5 md:flex-row items-center md:space-x-4 space-y-4">
           <PeopleIcon />
-          <p>
+          <p class="service-detail">
             Full detailed acquisition analysis.<br/>
             Attract the most valuable customers.
           </p>
         </div>
 
-        <div class="flex flex-col items-center space-y-4">
+        <div class="flex flex-col md:w-2/5 md:flex-row items-center md:space-x-4 space-y-4 md:space-y-0">
           <MagneticIcon />
-          <p>
+          <p class="service-detail">
             Full detailed acquisition analysis.<br/>
             Attract the most valuable customers.
           </p>
         </div>
 
-        <div class="flex flex-col items-center space-y-4">
+        <div class="flex flex-col p-8 md:w-2/5 md:flex-row items-center md:space-x-4 space-y-4">
           <ConnectionIcon />
-          <p>
+          <p class="service-detail">
             Full detailed acquisition analysis.<br/>
             Attract the most valuable customers.
           </p>
