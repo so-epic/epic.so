@@ -2,23 +2,12 @@ import React, { useState} from 'react'
 
 import { useMorph, useFade, useMorphKeys } from 'react-morph';
 
-import { easeInSin, easeOutSin, easeIn, easeOut } from 'react-morph';
-
 import ContactButtonSVG from '../../assets/images/contact-button.svg'
 import ContactButtonHoverSVG from '../../assets/images/contact-button-hover.svg'
 
 function ContactButton() {
   const [toggle, setToggle] = useState(true);
-  
 
-  // const morph = useMorph({
-  //   easings: {
-  //     translateX: easeOutSin,
-  //     translateY: easeInSin,
-  //     scaleX: easeIn,
-  //     scaleY: easeOut
-  //   },
-  // });
 
   const spring = { damping: 100, stiffness: 50 }
   const fadeIn = useFade({ spring, isInitial: toggle, delaysRatio: 1 })

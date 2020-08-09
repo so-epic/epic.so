@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420.282" height="197.427" viewBox="310 20 100 290">
+  <g id="Decorations" transform="translate(-374.945 -348.109)">
+    <g id="Decoration_1" data-name="Decoration 1" transform="translate(368.902 451.225) rotate(-18)">
+      <path id="Path_3" data-name="Path 3" d="M45.109,17.835C81.265,16.315,128.7,37.481,160.525,38.95,209.419,41.205,272.275,0,272.275,0" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="3" opacity="0.2"/>
+      <path id="Path_4" data-name="Path 4" d="M44.924.077c36.2-1.593,83.722,19.636,115.6,21.107" transform="translate(0 17.765)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="3"/>
+    </g>
+    <g id="Decoration_1-2" data-name="Decoration 1" transform="translate(369.902 470.225) rotate(-18)">
+      <path id="Path_3-2" data-name="Path 3" d="M33.914,24.282C78.057,10.75,146.831,44.243,190.678,46.266,248.758,48.946,323.421,0,323.421,0" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="3" opacity="0.2"/>
+      <path id="Path_4-2" data-name="Path 4" d="M35.066,2.842C79.148-9.822,147.179,23.157,190.678,25.164" transform="translate(0 21.102)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="3"/>
+    </g>
+    <g id="Decoration_1-3" data-name="Decoration 1" transform="translate(320.902 497.225) rotate(-18)">
+      <path id="Path_3-3" data-name="Path 3" d="M59.262,33.226C123.949,20.334,218.294,64.994,279.5,67.818,364.638,71.746,474.082,0,474.082,0" transform="translate(0 0)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="3" opacity="0.2"/>
+      <path id="Path_4-3" data-name="Path 4" d="M59.907,2.169c64.829-12.4,158.643,31.9,219.6,34.717" transform="translate(0 30.932)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="3"/>
+    </g>
+  </g>
+</svg>
