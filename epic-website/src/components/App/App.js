@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useRef } from 'react';
 
 import '../../styles/app.css'
 
@@ -11,18 +11,20 @@ import TravisGiggy from '../TravisGiggy'
 import Methodology from '../Methodology'
 import StayInTouch from '../StayInTouch'
 import Services from '../Services'
+import Footer from '../Footer'
 
-
-// import Footer from '../Footer'
 
 function App() {
+  const ref = useRef(null)
+
+  console.log(ref)
   return (
     <div className="flex flex-col overflow-hidden">
       <NavBar />
       <MenuButton />
       <ContactButton />
       <Introduction />
-      <PabloVidal />
+      <PabloVidal/>
       <TravisGiggy />
       <Methodology />
       <StayInTouch />

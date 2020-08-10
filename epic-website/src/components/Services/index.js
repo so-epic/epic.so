@@ -27,7 +27,7 @@ const Services = () =>  {
           </p>
         </div>
 
-        <div class="flex flex-col p-8 md:w-2/5 md:flex-row items-center md:space-x-4 space-y-4">
+        <div class="flex flex-col md:p-8 md:w-2/5 md:flex-row items-center md:space-x-4 space-y-4">
           <ConnectionIcon />
           <p class="service-detail">
             Full detailed acquisition analysis.<br/>

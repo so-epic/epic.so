@@ -1,6 +1,6 @@
 import React from 'react'
 
-import MobileBackground from '../../assets/images/mobile-introduction-bg.svg'
+import InsideMask from '../../assets/images/inside-mask.svg'
 import ContactButton from '../ContactUsButton'
 import LinesIntroduction from '../LinesIntroduction'
 
@@ -20,6 +20,7 @@ function Introduction() {
       <div class="hidden md:inline mt-16">
         <LinesIntroduction />
       </div>
+
     </div>
   );
 }
