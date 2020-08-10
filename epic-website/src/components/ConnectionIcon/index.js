@@ -2,7 +2,7 @@ import React from 'react'
 
 import Connection from '../../assets/images/conection.svg'
 
-function ConnectionIcon() {
+const ConnectionIcon = () => {
   return(
     <div>
       <img src={Connection}></img>

@@ -1,29 +1,34 @@
-import React, { useState } from 'react'
+import React, { useState} from 'react'
 
-import { useMorph, easeInSin, easeOutSin, easeIn, easeOut } from 'react-morph';
+import { useMorph, useFade, easeInSin, easeOutSin, easeIn, easeOut } from 'react-morph';
 
 import ContactExpanded from '../../assets/images/contact-expanded.svg'
+import X from '../../assets/images/fingerprint.svg'
 
 
-function ContactUsButton() {
-  const [toggle, setToggle] = useState(true);
+const ContactUsButton = () => {
+  const [toggle, setToggle] = useState(false);
   const morph = useMorph({
-    easings: {
-      translateX: easeOutSin,
-      translateY: easeInSin,
-      scaleX: easeIn,
-      scaleY: easeOut
+    spring: {
+      restDisplacementThreshold: 0.0001,
+      overshootClamping: true,
+      stiffness: 50,
     },
+    easings: {
+      translateX: easeIn,
+      translateY: easeIn
+    },
+    isReversed: !toggle,
   });
+  
   return (
-    <div class="" onMouseOver={() => setToggle(!toggle)} onMouseOut={() => setToggle(true)}>
-      {toggle ? (
-        <button class="bg-buttonColor w-40 h-6 text-white text-buttonSize font-beBetter font-medium rounded-xlg mt-8 mb-16">
+    <div onMouseOut={() => setToggle(false)} class="w-160px h-50px z-20">
+        {!toggle && <button onMouseOut={() => setToggle(!toggle)} onMouseOver={() => setToggle(!toggle)}  {...morph} class="bg-buttonColor w-40 h-50px h-6 text-white text-buttonSize font-beBetter font-medium rounded-xlg mb-16">
           Contact us
-        </button>
-      ) : (
-        <img class="mb-16" {...morph.scaleX} src={ContactExpanded} width="60%" />
-      )}
+        </button>}
+      
+        {toggle && <img class="" onMouseOut={() => setToggle(!toggle)} src={ContactExpanded} {...morph}></img>}
+        
     </div>
   );
 }
