@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import React, { useRef, useState } from 'react';
 
 import '../../styles/app.css'
 
@@ -12,24 +12,28 @@ import Methodology from '../Methodology'
 import StayInTouch from '../StayInTouch'
 import Services from '../Services'
 import Footer from '../Footer'
+import ContactModal from '../ContactModal'
+import MenuExpanded from '../MenuExpanded'
 
 
 function App() {
-  const ref = useRef(null)
-
+  const ref = useRef(null);
+  const [openContactModal, setOpenContactModal] = useState(false)
+  const [openMenuExpanded, setOpenMenuExpanded] = useState(false)
   console.log(ref)
   return (
     <div className="flex flex-col overflow-hidden">
+      {openMenuExpanded && (<MenuExpanded />)}
+      {openContactModal && (<ContactModal />)}
       <NavBar />
-      <MenuButton />
-      <ContactButton />
+      <MenuButton setMenuExpanded={setOpenMenuExpanded} />
+      <ContactButton setContactModal = {setOpenContactModal} />
       <Introduction />
       <PabloVidal/>
       <TravisGiggy />
       <Methodology />
       <StayInTouch />
       <Services />
-      {/* <Footer /> */}
     </div>
   );
 }

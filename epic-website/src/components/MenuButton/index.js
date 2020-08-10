@@ -23,9 +23,9 @@ function MenuMaximized(){
   )
 }
 
-function MenuButton() {
+function MenuButton(props) {
   return (
-    <div class="fixed z-20 md:hidden">
+    <div onClick={() => props.setMenuExpanded(true)} class="fixed z-20 md:hidden">
       <MenuMinimized />
     </div>
   )

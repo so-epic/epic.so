@@ -20,7 +20,6 @@ function Introduction() {
       <div class="hidden md:inline mt-16">
         <LinesIntroduction />
       </div>
-
     </div>
   );
 }
