@@ -22,16 +22,16 @@ const Services = () =>  {
         <div class="flex flex-col md:w-2/5 md:flex-row items-center md:space-x-4 space-y-4 md:space-y-0">
           <MagneticIcon />
           <p class="service-detail">
-            Full detailed acquisition analysis.<br/>
-            Attract the most valuable customers.
+            Cohort analysis and churn predictions.<br/>
+            A professional dive into LTV and retention.
           </p>
         </div>
 
         <div class="flex flex-col md:p-8 md:w-2/5 md:flex-row items-center md:space-x-4 space-y-4">
           <ConnectionIcon />
           <p class="service-detail">
-            Full detailed acquisition analysis.<br/>
-            Attract the most valuable customers.
+            Growth opportunities and strategic recommendations.
+            Create value and optimize resources.
           </p>
         </div>
       </div>

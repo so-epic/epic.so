@@ -14,22 +14,22 @@ const NavBar = (props) => {
       <div class="w-full block md:flex md:items-center md:w-auto md:mr-16">
         <div class="text-md space-x-8">
           <a href="#home" onClick={() => {console.log("paseei")}} class="font-beBetter font-regular text-stayInTouchDescriptionColor block md:inline-block">
-            HOME
+            Home
           </a>
           <a href="#responsive-header" class="font-beBetter font-regular text-stayInTouchDescriptionColor block md:inline-block">
-            ABOUT US
+            About us
           </a>
           <a href="#responsive-header" class="font-beBetter font-regular text-stayInTouchDescriptionColor block md:inline-block">
-            BENEFITS
+            Benefits
           </a>
           <a href="#responsive-header" class="font-beBetter font-regular text-stayInTouchDescriptionColor block md:inline-block">
-            OUR METHODOLOGY
+            Our methodology
           </a>
           <a href="#responsive-header" class="font-beBetter font-regular text-stayInTouchDescriptionColor block md:inline-block">
-            BLOG
+            Blog
           </a>
           <a href="#responsive-header" class="font-beBetter font-regular text-stayInTouchDescriptionColor block md:inline-block">
-            CONTACT US
+            Contact us
           </a>
         </div>
       </div>

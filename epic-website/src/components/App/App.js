@@ -1,5 +1,7 @@
 import React, { useRef, useState } from 'react';
 
+import { useMorph, useFade, useMorphKeys, easeOut } from 'react-morph';
+
 import '../../styles/app.css'
 
 import NavBar from '../NavBar'
@@ -21,13 +23,43 @@ const App = () => {
   const [openContactModal, setOpenContactModal] = useState(false)
   const [openMenuExpanded, setOpenMenuExpanded] = useState(false)
   console.log(ref)
+
+  const contactMorph = useMorph({
+    spring: {
+      restDisplacementThreshold: 0.01,
+      overshootClamping: true,
+      damping: 5,
+      stiffness: 30,
+      mass: 1.4
+    },
+    easings: {
+      scaleY: easeOut,
+      scaleX: easeOut
+    }
+  });
+
+  const menuMorph = useMorph({
+    spring: {
+      restDisplacementThreshold: 0.01,
+      overshootClamping: true,
+      mass: 5,
+      damping: 5,
+      stiffness: 50
+    },
+    easings: {
+      scaleY: easeOut,
+      scaleX: easeOut
+    }
+  });
+
+
   return (
     <div className="flex flex-col overflow-hidden">
-      {openMenuExpanded && (<MenuExpanded />)}
-      {openContactModal && (<ContactModal />)}
+      {openMenuExpanded && (<MenuExpanded menuMorph={menuMorph} setMenuExpanded={setOpenMenuExpanded} />)}
+      {openContactModal && (<ContactModal contactMorph={contactMorph} setContactModal={setOpenContactModal} />)}
       <NavBar />
-      <MenuButton setMenuExpanded={setOpenMenuExpanded} />
-      <ContactButton setContactModal = {setOpenContactModal} />
+      {!openMenuExpanded && (<MenuButton menuMorph={menuMorph} setMenuExpanded={setOpenMenuExpanded} />)}
+      {!openContactModal && (<ContactButton contactMorph={contactMorph} setContactModal = {setOpenContactModal} />)}
       <Introduction />
       <PabloVidal/>
       <TravisGiggy />

@@ -65,6 +65,9 @@ module.exports = {
       },
       borderRadius: {
         "xlg" : "1rem"
+      },
+      zIndex: {
+        "75": "75"
       }
     },
   },
