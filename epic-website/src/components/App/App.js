@@ -34,6 +34,7 @@ function App() {
       <Methodology />
       <StayInTouch />
       <Services />
+      {/* <Footer /> */}
     </div>
   );
 }

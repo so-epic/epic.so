@@ -9,3 +9,9 @@
     background-image: url("../../assets/images/mobile-introduction-bg.svg")
   }
 }
+
+iframe {
+  clip-path: url(#clip);
+  margin-left: 40vw;
+  transform: scale(0.80);
+}
