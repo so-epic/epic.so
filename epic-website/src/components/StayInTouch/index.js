@@ -33,7 +33,7 @@ function StayInTouch() {
             <input class="appearance-none bg-transparent border-none w-full text-gray-700 mr-3 py-1 px-2 leading-tight focus:outline-none" type="text" placeholder="Name" aria-label="Full name"/>
           </div>
           </form>
-          <button class="font-beBetter font-semibold text-white text-contactFontSize mt-24">Join newsletter</button>
+          <button class="font-beBetter font-semibold text-white text-contactFontSize mt-16">Join newsletter</button>
         </div>
 
         <div class="flex flex-col h-70 w-112 items-center bg-white border-2 border-epicBlue rounded-xlg md:w-124">
