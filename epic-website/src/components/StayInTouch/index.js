@@ -28,7 +28,12 @@ function StayInTouch() {
           <img class="absolute hidden md:inline self-start" src={BlueDecorations} />
           <h2 class="self-end mt-16 md:mt-24 font-beBetter font-medium text-white text-methodologyTitleSize mr-4">Epic Newsletter</h2>
           <p class="self-end font-beBetter font-light text-white text-contactFontSize mr-4 mt-4">Keep in touch with all news about us and<br/>the finance market</p>
-          <button class="font-beBetter font-semibold text-white text-contactFontSize mt-32">Join newsletter</button>
+          <form class="w-10/12 max-w-sm mt-8">
+          <div class="flex flex-col items-center border-b-2 border-white py-2">
+            <input class="appearance-none bg-transparent border-none w-full text-gray-700 mr-3 py-1 px-2 leading-tight focus:outline-none" type="text" placeholder="Name" aria-label="Full name"/>
+          </div>
+          </form>
+          <button class="font-beBetter font-semibold text-white text-contactFontSize mt-24">Join newsletter</button>
         </div>
 
         <div class="flex flex-col h-70 w-112 items-center bg-white border-2 border-epicBlue rounded-xlg md:w-124">

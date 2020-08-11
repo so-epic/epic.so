@@ -33,7 +33,7 @@ const MenuList = () => {
         <a href="#" class="inline-block px-4 py-2 text-xl leading-5 text-white focus:outline-none focus:bg-gray-100 focus:text-gray-900" role="menuitem">06</a>
         <a href="#" class="inline-block px-4 py-2 text-xl leading-5 text-white focus:outline-none focus:bg-gray-100 focus:text-gray-900" role="menuitem">Contact Us</a>
       </div>
-      <div class="border-t opacity-25 border-gray-100"></div>
+      <div class="border-t opacity-25  border-gray-100"></div>
     </div>
   </div>
   )
