@@ -42,7 +42,7 @@ const App = () => {
     spring: {
       restDisplacementThreshold: 0.01,
       overshootClamping: true,
-      mass: 5,
+      mass: 2,
       damping: 5,
       stiffness: 50
     },
