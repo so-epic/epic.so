@@ -1,6 +1,5 @@
 import React from 'react'
 
-import InsideMask from '../../assets/images/inside-mask.svg'
 import ContactButton from '../ContactUsButton'
 import LinesIntroduction from '../LinesIntroduction'
 

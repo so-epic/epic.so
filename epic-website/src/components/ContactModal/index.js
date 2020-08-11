@@ -4,7 +4,7 @@ const ContactModal = () => {
   return (
     <div class="z-50 modal pointer-events-none fixed w-full h-full top-0 left-0 flex items-center justify-center">
       <div class="modal-overlay fixed w-full h-full bg-black opacity-25 top-0 left-0 cursor-pointer"></div>
-      <div class="modal-contact-div fixed flex-col top-0 ml-64 mt-32">
+      <div class="modal-contact-div fixed flex-col top-0 ml-0 md:ml-64 mt-32">
         <h1 class="text-4xl text-white">Contact</h1>
         <p class="text-white mt-8">
           We leverage big data and algorhitms to<br/>
