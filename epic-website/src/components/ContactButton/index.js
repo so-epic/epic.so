@@ -9,6 +9,8 @@ import './contactButton.css'
 
 const ContactButton = (props) => {
   const [toggle, setToggle] = useState(false);
+
+
   const morph = useMorph({
     spring: {
       restDisplacementThreshold: 0.0001,

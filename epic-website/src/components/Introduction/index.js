@@ -20,7 +20,7 @@ function Introduction() {
       <div class="hidden md:inline mt-16">
         <LinesIntroduction />
       </div>
-      <div class="absolute">
+      <div class="absolute md:inline hidden">
         <svg class="absolute" xmlns="http://www.w3.org/2000/svg">
           <clipPath id="clip" transform="translate(77.465 0)">
             <path
