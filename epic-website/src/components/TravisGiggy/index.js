@@ -4,7 +4,7 @@ import CurvedLines from '../../assets/images/curved-lines.svg'
 import TravisGiggyImage from '../../assets/images/travis-giggy.png'
 import ProfileDecoration2 from '../../assets/images/profile-decoration2.svg'
 
-function TravisGiggy() {
+const TravisGiggy = () => {
   return (
     <div class="flex flex-col md:flex-row md:justify-around items-center h-full mt-4 mb-32">
       <div class="md:flex md:flex-col md:self-start md:order-1 md:-mt-8 md:ml-32 md:px-16">

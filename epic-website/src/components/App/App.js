@@ -16,7 +16,7 @@ import ContactModal from '../ContactModal'
 import MenuExpanded from '../MenuExpanded'
 
 
-function App() {
+const App = () => {
   const ref = useRef(null);
   const [openContactModal, setOpenContactModal] = useState(false)
   const [openMenuExpanded, setOpenMenuExpanded] = useState(false)

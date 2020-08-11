@@ -3,7 +3,7 @@ import React from 'react';
 import MethodologyLineWeb from '../../assets/images/methodology-line-web.png'
 import "./methodology.css"
 
-function Methodology() {
+const Methodology = () => {
   return(
     <div class="flex flex-col items-center h-full bg-lightBlue">
       <h1 class="methodology-title md:mt-32 tracking-wider">Methodology</h1>

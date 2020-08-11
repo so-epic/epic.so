@@ -4,7 +4,7 @@ import LinesIntroductionSVG from "../../assets/images/lines-introduction.svg"
 
 import './LineIntroduction.css'
 
-function LinesIntroduction() {
+const LinesIntroduction = () => {
   return (
     <svg class="line" xmlns="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/1999/xlink" width="3000" height="256.569" viewBox="0 0 3000 256.569" >
       <defs>

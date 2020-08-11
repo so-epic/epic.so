@@ -3,7 +3,7 @@ import React, { useRef } from 'react';
 import FingerPrintSVG from '../../assets/images/fingerprint.svg'
 
 
-function NavBar(props) {
+const NavBar = (props) => {
 
   return(
     <nav class="hidden md:flex fixed w-full items-center justify-between  bg-white z-40 p-6">

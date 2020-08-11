@@ -7,7 +7,7 @@ import BlueDecorations from '../../assets/images/bluedecorations.svg'
 import WhiteDecorations from '../../assets/images/whitedecorations.svg'
 import Line from '../../assets/images/get-in-touch-line.svg'
 
-function StayInTouch() {
+const StayInTouch = () => {
   return(
     <div class="flex flex-col items-center h-full mt-32 space-y-16">
       <div class="flex flex-col items-center space-y-8">

@@ -3,7 +3,8 @@ import React from 'react'
 import CurvedLines from '../../assets/images/curved-lines.svg'
 import PabloVidalImage from '../../assets/images/pablo-vidal.png'
 import ProfileDecoration from '../../assets/images/profile-decoration.svg'
-function PabloVidal() {
+
+const PabloVidal = () => {
   return (
     <div class="flex flex-col md:flex-row md:justify-center items-center h-full mt-16 mb-16">
       <div class="md:flex md:flex-col md:self-start md:order-2 md:-mt-8">

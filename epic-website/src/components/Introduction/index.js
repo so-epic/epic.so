@@ -6,7 +6,7 @@ import LinesIntroduction from '../LinesIntroduction'
 
 import './introduction.css'
 
-function Introduction() {
+const Introduction = () => {
   return (
     <div class="flex flex-col h-screen mt-16 introduction-div overflow-hidden">
       <div class="flex flex-col self-start">
