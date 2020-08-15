@@ -1,0 +1,11 @@
+@media (min-width: 1500px) {
+  .header-content-div  {
+    height: 20rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .header-content-div  {
+    height: 20rem;
+  }
+}

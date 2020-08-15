@@ -16,8 +16,8 @@ const NavBar = (props) => {
       <div class="w-full block md:flex md:items-center md:w-auto md:mr-16">
         <div class="text-md space-x-8">
           <Link smooth to="/#home">Home</Link>
-          <Link smooth to="/#travis">About us</Link>
-          <Link smooth to="/#methology">Our methodology</Link>
+          <Link smooth to="/#aboutUs">About us</Link>
+          <Link smooth to="/#methodology">Our methodology</Link>
           <Link smooth  to="/#stayInTouch">Contact Us</Link>
           <Link smooth to="/#benefits">Benefits</Link>
           <Link smooth to="/blog">Blog</Link>

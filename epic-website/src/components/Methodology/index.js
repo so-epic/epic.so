@@ -5,7 +5,7 @@ import "./methodology.css"
 
 const Methodology = () => {
   return(
-    <div id="methology" class="flex flex-col items-center h-full bg-lightBlue">
+    <div id="methodology" class="flex flex-col items-center h-full bg-lightBlue">
       <h1 class="methodology-title md:mt-32 tracking-wider">Methodology</h1>
       <h2 class="methodology-description hidden md:inline md:mt-8">A quantitative approach to growth</h2>
       <svg class="absolute md:hidden z-30 w-32 h-64 self-end" xmlns="http://www.w3.org/2000/svg">

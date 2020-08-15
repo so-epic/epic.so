@@ -1,11 +1,15 @@
 import React from 'react'
 
 import NavBar from '../NavBar'
+import HeaderContentPage from '../HeaderContentPage'
 
 
 const ContentPage = () => {
   return (
-    <NavBar/>
+    <div className="flex flex-col overflow-hidden">
+      <NavBar/>
+      <HeaderContentPage />
+    </div>
   )
 }
 

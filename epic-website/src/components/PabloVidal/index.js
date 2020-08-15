@@ -6,9 +6,9 @@ import ProfileDecoration from '../../assets/images/profile-decoration.svg'
 
 const PabloVidal = () => {
   return (
-    <div class="flex flex-col md:flex-row md:justify-center items-center h-full mt-16 mb-16">
+    <div  class="flex flex-col md:flex-row md:justify-center items-center h-full mt-16 mb-16">
       <div class="md:flex md:flex-col md:self-start md:order-2 md:-mt-8">
-        <img class="object-contain -ml-24 -mr-24 self-end inset-16 md:w-56" src={CurvedLines} alt="" />
+        <img id="aboutUs" class="object-contain -ml-24 -mr-24 self-end inset-16 md:w-56" src={CurvedLines} alt="" />
         <img class="z-10 -mt-40 md:-mt-32 md:w-126" src={PabloVidalImage} alt="PabloVidal" />
       </div>
       <img class="absolute hidden md:inline self-end right-0 mt-24" src={ProfileDecoration} alt="PabloVidal" />

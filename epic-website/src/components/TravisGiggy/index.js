@@ -12,6 +12,7 @@ const TravisGiggy = () => {
         <img class="z-10 -mt-40 md:mt-0 md:-mt-32 md:w-126 md:min-w-400px" src={TravisGiggyImage} alt="TravisGiggy" />
       </div>
       <img class="absolute hidden md:inline self-end right-0 mt-24" src={ProfileDecoration2} alt="Decoration" />
+      
       <div class="flex flex-col md:min-w-1/2 md:order-2">
         <h1 class="font-beBetter ml-16 md:ml-64 font-medium text-personNameSize md:text-personNameMdSize text-beBetterBlue leading-tight mt-8">
           Travis Giggy
