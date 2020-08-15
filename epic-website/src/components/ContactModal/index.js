@@ -45,11 +45,11 @@ const ContactModal = (props) => {
 
       <img onClick={CloseContactModal} class="fixed top-0 right-0 mr-16 md:mr-64 mt-32 md:mt-32 z-75" src={CloseModalButton}></img>
 
-      <svg class="hidden z-50 md:inline" {...props.contactMorph} onClick={() => console.log("SVG")} xmlns="http://www.w3.org/2000/svg" width="2379.355" height="2368.406" viewBox="-600 0 2379.355 2368.406">
+      <svg class="hidden z-50 md:inline" {...props.contactMorph} xmlns="http://www.w3.org/2000/svg" width="2379.355" height="2368.406" viewBox="-600 0 2379.355 2368.406">
         <path id="Background" d="M876.379,0c484.011,0,876.379,385.672,876.379,861.422s-392.368,861.422-876.379,861.422S0,1337.173,0,861.422,392.368,0,876.379,0Z" transform="translate(0 876.379) rotate(-30)" fill="#011865"/>
       </svg>
 
-      <svg {...props.contactMorph} class="inline z-50 md:hidden" onClick={() => console.log("SVG")} xmlns="http://www.w3.org/2000/svg" width="4000" height="2368.406" viewBox="750 -200 800 2368.406">
+      <svg {...props.contactMorph} class="inline z-50 md:hidden" xmlns="http://www.w3.org/2000/svg" width="4000" height="2368.406" viewBox="750 -200 800 2368.406">
         <path id="Background" d="M876.379,0c484.011,0,876.379,385.672,876.379,861.422s-392.368,861.422-876.379,861.422S0,1337.173,0,861.422,392.368,0,876.379,0Z" transform="translate(0 876.379) rotate(-30)" fill="#011865"/>
       </svg>
     </div>
