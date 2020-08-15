@@ -10,6 +10,20 @@
   }
 }
 
+@media (min-width: 1500px) {
+  .div-svg-video {
+    margin-left: 200px;
+    margin-top: -100px;
+  }
+}
+
+@media (min-width: 768px) {
+  .div-svg-video {
+    margin-top: -100px;
+  }
+}
+
+
 iframe {
   clip-path: url(#clip);
   margin-left: 30vw;
