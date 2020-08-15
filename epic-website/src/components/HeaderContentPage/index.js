@@ -12,8 +12,8 @@ const HeaderContentPage = () => {
   return (
     <div id="headerContentPage" class="flex flex-col mt-16 md:mt-8 overflow-hidden justify-center md:items-center">
       <div class="flex flex-col self-center introduction-div w-full justify-center items-center">
-        <h1 class="font-beBetter font-bold text-beBetterSize text-beBetterBlue tracking-wider mt-8 ml-8 md:ml-0 md:text-beBetterMdSize">Featured Insights</h1>
-        <p class="font-beBetter font-light text-descriptionSize text-beBetterBlue tracking-widest mt-4 md:ml-0  md:text-buttonSize">
+        <h1 class="font-beBetter font-bold text-beBetterSize text-beBetterBlue tracking-wider mt-8 ml-0 md:ml-0 md:text-beBetterMdSize">Featured Insights</h1>
+        <p class="font-beBetter font-light text-descriptionSize text-beBetterBlue tracking-widest mt-4 md:ml-0 break-all  md:text-buttonSize">
           Our latest thinking on the issues that matter<br/>
           most in business and management.
         </p>
@@ -39,7 +39,7 @@ const HeaderContentPage = () => {
             livelihoods, and how organizations can prepare..
           </p>
 
-          <button href="link" class="bg-buttonColor w-40 h-6 text-white text-buttonSize font-beBetter font-medium rounded-xlg mt-8 mb-16 z-75">
+          <button href="link" class="bg-buttonColor w-40 h-6 text-white text-buttonSize self-center md:self-start font-beBetter font-medium rounded-xlg mt-8 mb-16 z-75">
             Read more
           </button>
 
