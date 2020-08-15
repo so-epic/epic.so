@@ -58,7 +58,12 @@ module.exports = {
       minWidth: {
         "1/2": "50%",
         "400px": "400px",
+        "600px": "600px",
       },
+      maxWidth: {
+        "80%": "80%"
+      },
+
       spacing: {
         "124": "-24rem"
       },
