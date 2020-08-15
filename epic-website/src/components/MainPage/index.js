@@ -22,10 +22,8 @@ import { HashLink as Link } from 'react-router-hash-link'
 
 
 const MainPage = () => {
-  const ref = useRef(null);
   const [openContactModal, setOpenContactModal] = useState(false)
   const [openMenuExpanded, setOpenMenuExpanded] = useState(false)
-  console.log(ref)
 
   const contactMorph = useMorph({
     spring: {
