@@ -2,6 +2,8 @@ import React, { useRef } from 'react';
 
 import FingerPrintSVG from '../../assets/images/fingerprint.svg'
 
+import { HashLink as Link } from 'react-router-hash-link'
+
 
 const NavBar = (props) => {
 
@@ -13,24 +15,12 @@ const NavBar = (props) => {
       </div>
       <div class="w-full block md:flex md:items-center md:w-auto md:mr-16">
         <div class="text-md space-x-8">
-          <a href="#home" onClick={() => {console.log("paseei")}} class="font-beBetter font-regular text-stayInTouchDescriptionColor block md:inline-block">
-            Home
-          </a>
-          <a href="#responsive-header" class="font-beBetter font-regular text-stayInTouchDescriptionColor block md:inline-block">
-            About us
-          </a>
-          <a href="#responsive-header" class="font-beBetter font-regular text-stayInTouchDescriptionColor block md:inline-block">
-            Benefits
-          </a>
-          <a href="#responsive-header" class="font-beBetter font-regular text-stayInTouchDescriptionColor block md:inline-block">
-            Our methodology
-          </a>
-          <a href="#responsive-header" class="font-beBetter font-regular text-stayInTouchDescriptionColor block md:inline-block">
-            Blog
-          </a>
-          <a href="#responsive-header" class="font-beBetter font-regular text-stayInTouchDescriptionColor block md:inline-block">
-            Contact us
-          </a>
+          <Link smooth to="/#home">Home</Link>
+          <Link smooth to="/#travis">About us</Link>
+          <Link smooth to="/#methology">Our methodology</Link>
+          <Link smooth  to="/#stayInTouch">Contact Us</Link>
+          <Link smooth to="/#benefits">Benefits</Link>
+          <Link smooth to="/blog">Blog</Link>
         </div>
       </div>
     </nav>

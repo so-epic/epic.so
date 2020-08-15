@@ -9,7 +9,7 @@ import Line from '../../assets/images/get-in-touch-line.svg'
 
 const StayInTouch = () => {
   return(
-    <div class="flex flex-col items-center h-full mt-32 space-y-16">
+    <div id="stayInTouch" class="flex flex-col items-center h-full mt-32 space-y-16">
       <div class="flex flex-col items-center space-y-8">
         <h1 class="font-beBetter font-bold text-beBetterBlue text-epicTitle tracking-wider">Stay in touch</h1>
         <p class="font-beBetter font-semibold text-stayInTouchDescriptionColor text-contactFontSize">

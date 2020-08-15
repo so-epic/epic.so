@@ -7,7 +7,7 @@ import './introduction.css'
 
 const Introduction = () => {
   return (
-    <div class="flex flex-col h-screen mt-16 introduction-div overflow-hidden">
+    <div id="home" class="flex flex-col h-screen mt-16 introduction-div overflow-hidden">
       <div class="flex flex-col self-start">
         <h2 class="font-epicLogo font-bold mt-32 ml-8 text-epicTitle text-epicTitleBlue md:ml-16 md:text-personNameSize epic-title-div">epic</h2>
         <h1 class="font-beBetter font-bold text-beBetterSize text-beBetterBlue tracking-wider mt-8 ml-8 md:ml-16 md:text-beBetterMdSize">Be better.</h1>

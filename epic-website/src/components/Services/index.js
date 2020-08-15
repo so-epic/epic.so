@@ -9,7 +9,7 @@ import ContactButton from '../ContactUsButton'
 
 const Services = () =>  {
   return(
-    <div class="flex flex-col items-center mt-32 space-y-16 md:ml-0 ml-4">
+    <div id="benefits" class="flex flex-col items-center mt-32 space-y-16 md:ml-0 ml-4">
       <div class="flex md:flex-wrap flex-col space-y-16 md:flex-row md:ml-24 md:space-y-0 md:justify-center">
         <div class="flex flex-col md:w-2/5 md:flex-row items-center md:space-x-4 space-y-4">
           <PeopleIcon />
