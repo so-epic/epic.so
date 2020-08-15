@@ -1,0 +1,14 @@
+.div-nice {
+  height: 200px!important;
+  overflow: visible!important;
+}
+
+.svg-nice {
+  overflow: visible!important;
+}
+
+.contact-font {
+  font-family: "Raleway";
+  font-weight: 700;
+  margin-left: 13px;
+}
