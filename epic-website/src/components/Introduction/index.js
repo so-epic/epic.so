@@ -16,7 +16,7 @@ const Introduction = () => {
           <ContactButton/>
         </div>
       </div>
-      <div class="hidden md:inline mt-16">
+      <div class="hidden md:inline absolute bottom-0 -mb-32">
         <LinesIntroduction />
       </div>
       <div class="absolute md:inline hidden div-svg-video">

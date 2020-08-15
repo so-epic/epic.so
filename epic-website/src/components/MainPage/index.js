@@ -63,12 +63,11 @@ const MainPage = () => {
         {!openContactModal && (<ContactButton contactMorph={contactMorph} setContactModal = {setOpenContactModal} />)}
         <Introduction />
         <PabloVidal/>
-        <TravisGiggy id="travis" />
+        <TravisGiggy />
         <Methodology />
         <StayInTouch />
         <Services />
         <Footer />
-        <div id="oi"> deodkepokdep</div>
       </div>    
   );
 }
