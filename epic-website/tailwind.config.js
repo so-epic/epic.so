@@ -46,7 +46,8 @@ module.exports = {
         "70": "24rem",
         "6": "2.8rem",
         "50px": "50px",
-        "40vh": "40vh"
+        "40vh": "40vh",
+        "120px":"120px"
       },
       width: {
         "126": "26rem",
