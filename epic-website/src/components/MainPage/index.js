@@ -17,8 +17,6 @@ import Footer from '../Footer'
 import ContactModal from '../ContactModal'
 import MenuExpanded from '../MenuExpanded'
 
-import { HashLink as Link } from 'react-router-hash-link'
-
 
 
 const MainPage = () => {
