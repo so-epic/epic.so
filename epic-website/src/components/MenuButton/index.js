@@ -1,13 +1,11 @@
 import React from 'react'
 
-import { useMorph, useFade, useMorphKeys, easeOut } from 'react-morph';
-
 
 const MenuMinimized = (props) => {
 
   
   return(
-    <svg class="font-beBetter font-bold text-menuFontSize" width="97" height="90">
+    <svg className="font-beBetter font-bold text-menuFontSize" width="97" height="90">
         <defs>
         <clipPath mlns="http://www.w3.org/2000/svg" >
         <path fill="#fff" d="M0 0h97v90H0z"/></clipPath>
@@ -20,7 +18,7 @@ const MenuMinimized = (props) => {
 
 const MenuButton = (props) => {
   return (
-    <div {...props.menuMorph} onClick={() => props.setMenuExpanded(true)} class="fixed z-20 md:hidden">
+    <div {...props.menuMorph} onClick={() => props.setMenuExpanded(true)} className="fixed z-20 md:hidden">
       <MenuMinimized />
     </div>
   )

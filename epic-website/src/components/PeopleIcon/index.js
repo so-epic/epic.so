@@ -6,7 +6,7 @@ const PeopleIcon = () => {
 
   return(
     <div>
-      <img src={People} />
+      <img alt="" src={People} />
     </div>
   )
 }

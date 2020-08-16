@@ -5,7 +5,7 @@ import Magnetic from '../../assets/images/magnetic.svg'
 const MagneticIcon = () => {
   return(
     <div>
-      <img src={Magnetic} />
+      <img alt="" src={Magnetic} />
     </div>
   )
 }

@@ -5,7 +5,7 @@ import Connection from '../../assets/images/conection.svg'
 const ConnectionIcon = () => {
   return(
     <div>
-      <img src={Connection}></img>
+      <img alt="" src={Connection}></img>
     </div>
     )
 }

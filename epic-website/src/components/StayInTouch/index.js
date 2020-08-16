@@ -22,21 +22,21 @@ const StayInTouch = () => {
         </p>
       </div>
 
-      <img class="absolute hidden md:inline self-end right-0 mt-24" src={FingerprintSVG} />
-      <img class="absolute hidden md:inline self-end right-0 mt-24" src={FingerprintSVG2} />
-      <img class="absolute hidden md:inline self-end right-0 mt-24" src={FingerprintSVG3} />
-      <img class="absolute hidden md:inline self-start" src={Line} />
+      <img alt="" class="absolute hidden md:inline self-end right-0 mt-24" src={FingerprintSVG} />
+      <img alt="" class="absolute hidden md:inline self-end right-0 mt-24" src={FingerprintSVG2} />
+      <img alt="" class="absolute hidden md:inline self-end right-0 mt-24" src={FingerprintSVG3} />
+      <img alt="" class="absolute hidden md:inline self-start" src={Line} />
 
       <div class="flex flex-col space-y-8 md:flex-row md:space-y-0 md:space-x-8 ">
         <div class="flex flex-col h-70 w-112 items-center bg-stayInTouchBlue rounded-xlg md:w-124">
-          <img class="absolute hidden md:inline self-start" src={BlueDecorations} />
+          <img alt="" class="absolute hidden md:inline self-start" src={BlueDecorations} />
           <h2 class="self-end mt-16 md:mt-24 font-beBetter font-medium text-white text-methodologyTitleSize mr-4">Epic Newsletter</h2>
           <p class="self-end font-beBetter font-light text-white text-contactFontSize mr-4 mt-4">Keep in touch with all news about us and<br/>the finance market</p>
           <button class="font-beBetter font-semibold text-white text-contactFontSize mt-32 z-75"><a target="_blank" rel="noopener noreferrer" href="https://epic.substack.com/subscribe?utm_source=website" >Join newsletter</a></button>
         </div>
 
         <div class="flex flex-col h-70 w-112 items-center bg-white border-2 border-epicBlue rounded-xlg md:w-124">
-          <img class="absolute hidden md:inline self-end" src={WhiteDecorations} />
+          <img alt="" class="absolute hidden md:inline self-end" src={WhiteDecorations} />
           <h2 class="self-start ml-4 mt-24 font-beBetter font-medium text-beBetterBlue text-methodologyTitleSize mr-4">Epic Blog</h2>
           <p class="self-start font-beBetter font-light text-beBetterBlue text-contactFontSize ml-4 mt-8 md:mt-4 ">Every monday a new post.<br/>Check it you will love it!</p>
           <Link class="z-75" to="/blog">
