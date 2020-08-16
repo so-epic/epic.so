@@ -6,7 +6,7 @@ import {easingOutQuint} from 'react-svg-morph'
 
 import './contactUsButton.css'
 
-class Checked extends React.Component {
+class Normal extends React.Component {
     render() {
         return (
           <svg xmlns="http://www.w3.org/2000/svg" width="250" height="250" viewBox="0 0 250 250" fill="#0891c4">
@@ -19,7 +19,7 @@ class Checked extends React.Component {
     }
 }
 
-class CheckBox extends React.Component {
+class Hover extends React.Component {
     render() {
         return (
           <svg xmlns="http://www.w3.org/2000/svg" width="220" height="200" viewBox="0 0 220 200">
@@ -45,10 +45,10 @@ class ContacUsButton extends React.Component {
 
     render() {
         return (
-          <div class="z-20 ml-16" onMouseLeave={() => this.toggleChecked()} onMouseEnter={() => this.toggleChecked()}>
-                <p class="absolute text-white contact-us-font text-xl">Contact Us</p>
+          <div class="z-20 ml-16 cursor-pointer" onMouseLeave={() => this.toggleChecked()} onMouseEnter={() => this.toggleChecked()}>
+                <p class="absolute text-white contact-us-font text-xl cursor-pointer">Contact Us</p>
                 <MorphReplaceResize class="div-contactUs" rotation={"none"} width={200} height={100}>
-                    {this.state.checked ? <Checked key="checked" /> : <CheckBox key="checkbox" />}
+                    {this.state.checked ? <Normal key="checked" /> : <Hover key="checkbox" />}
                 </MorphReplaceResize>
             </div>
         );

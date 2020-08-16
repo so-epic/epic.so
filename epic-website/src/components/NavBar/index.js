@@ -1,6 +1,6 @@
 import React, { useRef } from 'react';
 
-import FingerPrintSVG from '../../assets/images/fingerprint.svg'
+import Fingerprint from './Fingerprint'
 
 import { HashLink as Link } from 'react-router-hash-link'
 
@@ -8,10 +8,10 @@ import { HashLink as Link } from 'react-router-hash-link'
 const NavBar = (props) => {
 
   return(
-    <nav class="hidden md:flex fixed w-full items-center justify-between  bg-white p-6 z-80">
-      <div class="flex flex-col items-center text-white ml-16">
-        <span class="font-epicLogo font-bold text-epicTitle text-beBetterBlue md:text-personNameSize z-10 -mt-8 ml-8">epic</span>
-        <img class="self-start w-16 -mt-20 z-0" src={FingerPrintSVG} />
+    <nav class="hidden md:flex fixed w-full items-center justify-between bg-white pt-8 z-80">
+      <div class="flex flex-col items-center text-white">
+        <Link class="-mt-8 ml-8 z-20" to="/#home"><span class="font-epicLogo font-bold text-epicTitle text-beBetterBlue md:text-personNameSize z-10 ml-24">epic</span></Link>
+        <Fingerprint />
       </div>
       <div class="w-full block md:flex md:items-center md:w-auto md:mr-16">
         <div class="text-md space-x-8">

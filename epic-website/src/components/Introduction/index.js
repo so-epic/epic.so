@@ -5,6 +5,8 @@ import LinesIntroduction from '../LinesIntroduction'
 
 import './introduction.css'
 
+import { HashLink as Link } from 'react-router-hash-link'
+
 const Introduction = () => {
   return (
     <div id="home" class="flex flex-col h-screen mt-16 introduction-div overflow-hidden">
