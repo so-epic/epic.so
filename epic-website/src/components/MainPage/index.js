@@ -59,12 +59,12 @@ const MainPage = () => {
         <NavBar />
         {!openMenuExpanded && (<MenuButton menuMorph={menuMorph} setMenuExpanded={setOpenMenuExpanded} />)}
         {!openContactModal && (<ContactButton contactMorph={contactMorph} setContactModal = {setOpenContactModal} />)}
-        <Introduction />
+        <Introduction setContactModal={setOpenContactModal} />
         <PabloVidal/>
         <TravisGiggy />
         <Methodology />
         <StayInTouch />
-        <Services />
+        <Services setContactModal={setOpenContactModal} />
         <Footer />
       </div>    
   );

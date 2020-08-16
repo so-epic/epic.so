@@ -43,7 +43,7 @@ class ContacUsButton extends React.Component {
 
     render() {
         return (
-          <div class="z-20 ml-16 cursor-pointer" onMouseLeave={() => this.toggleChecked()} onMouseEnter={() => this.toggleChecked()}>
+          <div class="z-20 ml-16 cursor-pointer" onClick={() => this.props.setContactModal(true)} onMouseLeave={() => this.toggleChecked()} onMouseEnter={() => this.toggleChecked()}>
                 <p class="absolute text-white contact-us-font text-xl cursor-pointer">Contact Us</p>
                 <MorphReplaceResize class="div-contactUs" rotation={"none"} width={200} height={100}>
                     {this.state.checked ? <Normal key="checked" /> : <Hover key="checkbox" />}
