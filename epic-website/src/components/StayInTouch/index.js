@@ -7,6 +7,9 @@ import BlueDecorations from '../../assets/images/bluedecorations.svg'
 import WhiteDecorations from '../../assets/images/whitedecorations.svg'
 import Line from '../../assets/images/get-in-touch-line.svg'
 
+
+import { HashLink as Link } from 'react-router-hash-link'
+
 const StayInTouch = () => {
   return(
     <div id="stayInTouch" class="flex flex-col items-center h-full mt-32 space-y-16">
@@ -41,11 +44,12 @@ const StayInTouch = () => {
           <img class="absolute hidden md:inline self-end" src={WhiteDecorations} />
           <h2 class="self-start ml-4 mt-24 font-beBetter font-medium text-beBetterBlue text-methodologyTitleSize mr-4">Epic Blog</h2>
           <p class="self-start font-beBetter font-light text-beBetterBlue text-contactFontSize ml-4 mt-8 md:mt-4 ">Every monday a new post.<br/>Check it you will love it!</p>
-          <button class="mt-16 font-beBetter font-semibold text-beBetterBlue text-contactFontSize md:mt-24 ">Open blog</button>
-          
-          <svg class="mt-2" xmlns="http://www.w3.org/2000/svg" width="27.001" height="26.01" viewBox="0 0 27.001 26.01"><defs></defs><g transform="translate(0.751 0.75)">
-            <path class="a" d="M10,4.51H2.44A2.44,2.44,0,0,0,0,7V22.07a2.44,2.44,0,0,0,2.44,2.44H17.56A2.44,2.44,0,0,0,20,22.07V14.51H19v7.56a1.45,1.45,0,0,1-1.44,1.44H2.44A1.45,1.45,0,0,1,1,22.07V7A1.45,1.45,0,0,1,2.44,5.51H10Z"/><path class="b" d="M9.09,16.88A27.57,27.57,0,0,1,13.5,10a28.13,28.13,0,0,1,11-7.63"/><path class="a" d="M23.09,7.51l-.92-.4,1.98-4.52L19.5.94,19.84,0,25.5,2.01Z"/></g>
-          </svg>
+          <Link class="z-75" to="/blog">
+            <button class="mt-16 font-beBetter font-semibold text-beBetterBlue text-contactFontSize md:mt-24">Open blog</button>
+            <svg class="mt-2" xmlns="http://www.w3.org/2000/svg" width="90" height="26.01" viewBox="-30 0 90 26.01"><defs></defs><g transform="translate(0.751 0.75)">
+              <path class="a" d="M10,4.51H2.44A2.44,2.44,0,0,0,0,7V22.07a2.44,2.44,0,0,0,2.44,2.44H17.56A2.44,2.44,0,0,0,20,22.07V14.51H19v7.56a1.45,1.45,0,0,1-1.44,1.44H2.44A1.45,1.45,0,0,1,1,22.07V7A1.45,1.45,0,0,1,2.44,5.51H10Z"/><path class="b" d="M9.09,16.88A27.57,27.57,0,0,1,13.5,10a28.13,28.13,0,0,1,11-7.63"/><path class="a" d="M23.09,7.51l-.92-.4,1.98-4.52L19.5.94,19.84,0,25.5,2.01Z"/></g>
+            </svg>
+          </Link>
         </div>
       </div>
 

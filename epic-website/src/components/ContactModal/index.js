@@ -2,8 +2,6 @@ import React from 'react';
 
 import CloseModalButton from '../../assets/images/close-modal-button.svg'
 
-import { useMorph, useFade, useMorphKeys, easeOut } from 'react-morph';
-
 const ContactModal = (props) => {
 
   const CloseContactModal = () => {
