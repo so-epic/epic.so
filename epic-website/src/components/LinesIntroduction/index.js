@@ -1,12 +1,10 @@
 import React from 'react'
 
-import LinesIntroductionSVG from "../../assets/images/lines-introduction.svg"
-
 import './LineIntroduction.css'
 
 const LinesIntroduction = () => {
   return (
-    <svg class="line" xmlns="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/1999/xlink" width="3000" height="256.569" viewBox="0 0 3000 256.569" >
+    <svg class="line" xmlns="http://www.w3.org/1999/xlink" width="3000" height="256.569" viewBox="0 0 3000 256.569" >
       <defs>
         <linearGradient id="linear-gradient" x1="0.5" y1="-0.217" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
           <stop offset="0" stop-color="#8f75eb"/>

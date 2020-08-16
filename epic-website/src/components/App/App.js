@@ -1,12 +1,10 @@
-import React, { useRef, useState } from 'react';
+import React from 'react';
 
-import { useMorph, easeOut } from 'react-morph';
 
 import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link
 } from "react-router-dom";
 
 import MainPage from '../../components/MainPage'

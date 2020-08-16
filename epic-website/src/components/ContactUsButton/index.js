@@ -2,8 +2,6 @@ import React from 'react';
 
 import { MorphReplaceResize } from 'react-svg-morph';
 
-import {easingOutQuint} from 'react-svg-morph'
-
 import './contactUsButton.css'
 
 class Normal extends React.Component {
