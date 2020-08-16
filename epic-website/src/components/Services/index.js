@@ -7,7 +7,7 @@ import MagneticIcon from '../MagneticIcon'
 import ConnectionIcon from '../ConnectionIcon'
 import ContactButton from '../ContactUsButton'
 
-const Services = () =>  {
+const Services = (props) =>  {
   return(
     <div id="benefits" class="flex flex-col items-center mt-32 space-y-16 md:ml-0 ml-4">
       <div class="flex md:flex-wrap flex-col space-y-16 md:flex-row md:ml-24 md:space-y-0 md:justify-center">
@@ -36,7 +36,7 @@ const Services = () =>  {
         </div>
       </div>
       <div class="hidden md:inline md:mb-16 ml-16 mt-8 z-40">
-          <ContactButton/>
+          <ContactButton setContactModal={props.setContactModal}/>
        </div>
     </div>
   )

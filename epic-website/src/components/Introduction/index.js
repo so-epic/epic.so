@@ -5,7 +5,7 @@ import LinesIntroduction from '../LinesIntroduction'
 
 import './introduction.css'
 
-const Introduction = () => {
+const Introduction = (props) => {
   return (
     <div id="home" class="flex flex-col h-screen mt-16 introduction-div overflow-hidden">
       <div class="flex flex-col self-start">
@@ -13,7 +13,7 @@ const Introduction = () => {
         <h1 class="font-beBetter font-bold text-beBetterSize text-beBetterBlue tracking-wider mt-8 ml-8 md:ml-16 md:text-beBetterMdSize">Be better.</h1>
         <p class="font-beBetter font-light text-descriptionSize text-beBetterBlue tracking-widest mt-4 ml-8 md:ml-16 md:text-buttonSize">Grow a healthy business focusing <br/> on the right customers</p>
         <div class="hidden md:inline mt-8">
-          <ContactButton/>
+          <ContactButton setContactModal={props.setContactModal}/>
         </div>
       </div>
       <div class="hidden md:inline absolute bottom-0 -mb-32">
