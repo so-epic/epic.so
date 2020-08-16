@@ -14,8 +14,8 @@ const PabloVidal = () => {
       <img class="absolute hidden md:inline self-end right-0 mt-24" src={ProfileDecoration} alt="PabloVidal" />
       <div class="flex flex-col md:min-w-1/2 self-start">
         <h1 class="font-beBetter ml-8 font-medium text-personNameSize md:text-personNameMdSize text-beBetterBlue leading-tight mt-8">
-          Pablo Vidal<br/>
-          Areán
+          <span>Pablo </span>
+          <span class="text-nameSecondaryColor">Vidal<br></br>Areán</span>
         </h1>
         <p class="font-beBetter ml-8 md:max-w-md font-regular text-descriptionSize text-personDescriptionColor tracking-widest leading-7 mt-4 breaking-normal">
           Pablo Vidal Arean is an accomplished

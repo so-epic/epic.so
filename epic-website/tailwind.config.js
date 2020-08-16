@@ -20,7 +20,8 @@ module.exports = {
         "epicTitleBlue" : "#0891C4",
         "beBetterBlue": "#011865",
         "personDescriptionColor": "#303030",
-        "stayInTouchDescriptionColor": "#191919"
+        "stayInTouchDescriptionColor": "#191919",
+        "nameSecondaryColor": "#303030",
        
       },
       backgroundColor: {
