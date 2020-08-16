@@ -45,7 +45,7 @@ class ContactButton extends React.Component {
 
     render() {
         return (
-            <div class="fixed z-50 bottom-0 right-0 -mb-8 -mr-4 md:mr-0" {...this.props.contactMorph} onClick={() => this.props.setContactModal(true)} onMouseEnter={this.toggleChecked.bind(this)} onMouseLeave={this.toggleChecked.bind(this)}>
+            <div class="fixed z-50 bottom-0 right-0 -mb-8 -mr-4 md:mr-0 cursor-pointer" {...this.props.contactMorph} onClick={() => this.props.setContactModal(true)} onMouseEnter={this.toggleChecked.bind(this)} onMouseLeave={this.toggleChecked.bind(this)}>
                 <p class="contact-font fixed z-75 text-white bottom-0 mb-8">CONTACT</p>
                 <MorphReplaceResize easing={easingOutQuint} class="div-nice" rotation={"none"} width={110} height={100}>
                     {this.state.checked ? <Checked key="checked" /> : <CheckBox key="checkbox" />}
