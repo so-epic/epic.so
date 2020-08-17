@@ -12717,6 +12717,10 @@ video {
   z-index: 100;
 }
 
+.z-110 {
+  z-index: 110;
+}
+
 .z-auto {
   z-index: auto;
 }
@@ -27345,6 +27349,10 @@ video {
 
   .sm\:z-100 {
     z-index: 100;
+  }
+
+  .sm\:z-110 {
+    z-index: 110;
   }
 
   .sm\:z-auto {
@@ -41978,6 +41986,10 @@ video {
     z-index: 100;
   }
 
+  .md\:z-110 {
+    z-index: 110;
+  }
+
   .md\:z-auto {
     z-index: auto;
   }
@@ -56609,6 +56621,10 @@ video {
     z-index: 100;
   }
 
+  .lg\:z-110 {
+    z-index: 110;
+  }
+
   .lg\:z-auto {
     z-index: auto;
   }
@@ -71238,6 +71254,10 @@ video {
 
   .xl\:z-100 {
     z-index: 100;
+  }
+
+  .xl\:z-110 {
+    z-index: 110;
   }
 
   .xl\:z-auto {
