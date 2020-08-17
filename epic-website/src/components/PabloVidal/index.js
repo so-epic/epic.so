@@ -12,6 +12,7 @@ const PabloVidal = () => {
         <img class="z-10 -mt-40 md:-mt-32 md:w-126" src={PabloVidalImage} alt="PabloVidal" />
       </div>
       <img class="absolute hidden md:inline self-end right-0 mt-24" src={ProfileDecoration} alt="PabloVidal" />
+      
       <div class="flex flex-col md:min-w-1/2 self-start">
         <h1 class="font-beBetter ml-8 font-medium text-personNameSize md:text-personNameMdSize text-beBetterBlue leading-tight mt-8">
           <span>Pablo </span>
