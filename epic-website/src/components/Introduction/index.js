@@ -16,10 +16,10 @@ const Introduction = (props) => {
           <ContactButton setContactModal={props.setContactModal}/>
         </div>
       </div>
-      <div class="hidden md:inline absolute bottom-0 -mb-32">
+      <div class="hidden md:hidden lg:inline absolute bottom-0 -mb-32">
         <LinesIntroduction />
       </div>
-      <div class="absolute md:inline hidden div-svg-video">
+      <div class="absolute hidden md:hidden lg:inline  div-svg-video">
         <svg class="absolute" xmlns="http://www.w3.org/2000/svg">
           <clipPath id="clip" transform="translate(77 30)">
             <path
