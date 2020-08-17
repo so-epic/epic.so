@@ -1,6 +1,9 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 
 import { useMorph, easeOut } from 'react-morph';
+
+import { toast, ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 import '../../styles/app.css'
 
@@ -22,6 +25,7 @@ import MenuExpanded from '../MenuExpanded'
 const MainPage = () => {
   const [openContactModal, setOpenContactModal] = useState(false)
   const [openMenuExpanded, setOpenMenuExpanded] = useState(false)
+  const [emailSent, setEmailSent] = useState(false)
 
   const contactMorph = useMorph({
     spring: {
@@ -51,11 +55,19 @@ const MainPage = () => {
     }
   });
 
+  const openEmailSentNotification = async (open) => {
+    console.log(open)
+    await setEmailSent(true)
+    if (open) {
+      toast.success("Email sent")
+    }
+  }
+
 
   return (
       <div className="flex flex-col overflow-hidden">
         {openMenuExpanded && (<MenuExpanded menuMorph={menuMorph} setMenuExpanded={setOpenMenuExpanded} />)}
-        {openContactModal && (<ContactModal contactMorph={contactMorph} setContactModal={setOpenContactModal} />)}
+        {openContactModal && (<ContactModal contactMorph={contactMorph} setContactModal={setOpenContactModal} setEmailSent={openEmailSentNotification} />)}
         <NavBar />
         {!openMenuExpanded && (<MenuButton menuMorph={menuMorph} setMenuExpanded={setOpenMenuExpanded} />)}
         {!openContactModal && (<ContactButton contactMorph={contactMorph} setContactModal = {setOpenContactModal} />)}
@@ -66,6 +78,7 @@ const MainPage = () => {
         <StayInTouch />
         <Services setContactModal={setOpenContactModal} />
         <Footer />
+        {emailSent && (<ToastContainer />)}
       </div>    
   );
 }
