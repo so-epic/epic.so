@@ -8,7 +8,7 @@ const TravisGiggy = () => {
   return (
 
     <div  class="flex flex-col md:flex-row md:justify-center items-center h-full mt-16 mb-16">
-      <div class="md:flex md:flex-col md:self-start md:order-0 md:-mt-8 md:min-w-1/2 ">
+      <div class="md:flex md:flex-col md:self-start md:order-0 md:min-w-1/2 ">
         <img class="object-contain -ml-24 md:-ml-24 inset-16 md:w-56" src={CurvedLines} alt="" />
         <img class="z-10 -mt-40 md:-mt-32 md:w-126" src={TravisGiggyImage} alt="PabloVidal" />
       </div>
