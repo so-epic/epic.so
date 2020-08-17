@@ -10,7 +10,7 @@ const NavBar = () => {
 
   return(
     <nav className="hidden md:flex fixed w-full items-center justify-between bg-white pt-8 z-100">
-      <div className="flex flex-col items-center text-white md:ml-16">
+      <div className="flex flex-col items-center text-white">
         <Link className="-mt-8 ml-8 z-20" to="/#home"><span className="font-epicLogo font-bold text-epicTitle text-beBetterBlue md:text-personNameSize z-10 ml-24">epic</span></Link>
         <img className="absolute w-24 -mt-16" src={fingerprintest}></img>
       </div>
