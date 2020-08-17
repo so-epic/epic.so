@@ -21,7 +21,7 @@ const ContactModal = (props) => {
       Host : "smtp.gmail.com",
       Username : "epicnoreply3@gmail.com",
       Password : "11081108",
-      To : 'pedrodamatta3@gmail.com',
+      To : 'travis@epic.so',
       From : "epic@epic.com",
       Subject : `${subject}`,
       Body : `name: ${name} \n email: ${email} \n message: ${message}`
