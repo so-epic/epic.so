@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 
 import CloseModalButton from '../../assets/images/close-modal-button.svg'
 
-import { toast, ToastContainer } from 'react-toastify';
+import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 const ContactModal = (props) => {

@@ -34,7 +34,7 @@ const TravisGiggy = () => {
           Growth Expert
         </h2>
           <button class="mx-28 md:ml-8 bg-buttonColor w-40 h-6 text-white text-buttonSize font-beBetter font-medium rounded-xlg mt-8 mb-16 z-50">
-            <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/pablovidalarean/">See more</a>
+            <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/travisgiggy/">See more</a>
           </button>
       </div>
     </div>
