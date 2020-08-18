@@ -21,7 +21,6 @@ import ContactModal from '../ContactModal'
 import MenuExpanded from '../MenuExpanded'
 
 
-
 const MainPage = () => {
   const [openContactModal, setOpenContactModal] = useState(false)
   const [openMenuExpanded, setOpenMenuExpanded] = useState(false)

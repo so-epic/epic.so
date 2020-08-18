@@ -1,5 +1,27 @@
 module.exports = {
-  purge: [],
+  purge: [
+    './src/components/App/App.js',
+    './src/components/ConnectionIcon/index.js',
+    './src/components/ContactButton/index.js',
+    './src/components/ContactModal/index.js',
+    './src/components/ContactUsButton/index.js',
+    './src/components/ContentPage/index.js',
+    './src/components/Footer/index.js',
+    './src/components/HeaderContentPage/index.js',
+    './src/components/Introduction/index.js',
+    './src/components/LinesIntroduction/index.js',
+    './src/components/MainPage/index.js',
+    './src/components/MenuButton/index.js',
+    './src/components/MenuExpanded/index.js',
+    './src/components/MenuList/index.js',
+    './src/components/Methodology/index.js',
+    './src/components/NavBar/index.js',
+    './src/components/PabloVidal/index.js',
+    './src/components/PeopleIcon/index.js',
+    './src/components/Services/index.js',
+    './src/components/StayInTouch/index.js',
+    './src/components/TravisGiggy/index.js',
+  ],
   theme: {
     extend: {
       fontSize: {
