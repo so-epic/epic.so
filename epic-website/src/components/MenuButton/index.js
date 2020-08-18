@@ -18,7 +18,7 @@ const MenuMinimized = (props) => {
 
 const MenuButton = (props) => {
   return (
-    <div {...props.menuMorph} onClick={() => props.setMenuExpanded(true)} className="fixed z-20 md:hidden">
+    <div {...props.menuMorph} onClick={() => props.setMenuExpanded(true)} className="fixed z-100 md:hidden">
       <MenuMinimized />
     </div>
   )
