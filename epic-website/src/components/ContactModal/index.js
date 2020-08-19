@@ -16,7 +16,6 @@ const ContactModal = (props) => {
   }
 
   const sendEmail = (props) => {
-    console.log("oi")
     window.Email.send({
       Host : "smtp.gmail.com",
       Username : "epicnoreply3@gmail.com",
