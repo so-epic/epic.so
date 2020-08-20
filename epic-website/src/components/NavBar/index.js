@@ -15,7 +15,7 @@ const NavBar = () => {
         <img alt="" className="absolute w-24 -mt-16" src={fingerprintest}></img>
       </div>
       <div className="block md:flex flex-no-wrap md:items-center md:w-auto md:mr-16">
-        <div className="flex flex-no-wrap text-md space-x-8">
+        <div className="flex flex-no-wrap text-md space-x-8 text-personDescriptionColor">
           <Link smooth to="/#home">Home</Link>
           <Link smooth to="/#aboutUs">About us</Link>
           <Link smooth to="/#methodology">Our methodology</Link>
