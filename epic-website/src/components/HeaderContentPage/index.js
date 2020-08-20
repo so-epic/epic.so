@@ -58,7 +58,7 @@ const HeaderContentPage = () => {
           </p>
         </div>
 
-        <div id="post" class="flex flex-col md:flex-row md:items-center h-full mt-16 md:space-x-16 md:mb-32 md:max-w-80%">
+        <div id="post" class="flex flex-col lg:flex-row md:items-center h-full mt-16 md:space-x-16 md:mb-32 md:max-w-80%">
 
           <div class="md:flex md:flex-col md:order-1 md:-mt-8">
             <img class="object-contain -ml-24 md:-ml-24 inset-16 md:w-56" src={CurvedLines} alt="" />
@@ -67,7 +67,7 @@ const HeaderContentPage = () => {
 
           <img class="absolute hidden md:inline self-end right-0 mt-24" src={ProfileDecoration2} alt="Decoration" />
 
-          <div class="flex flex-col md:min-w-1/2 md:order-2 m-2">
+          <div class="flex flex-col md:min-w-1/2 md:order-2 lg:m-2">
             <h1 class="font-beBetter font-medium text-personNameSize md:text-5xl text-beBetterBlue leading-tight breaking-normal mt-8">
               Coronavirus and the economy
             </h1>
