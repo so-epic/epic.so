@@ -25,8 +25,8 @@ const PabloVidal = () => {
           25 years of success across the
           information services and technology,
           marketing and advertising,
-          telecommunications,leisu leisure and
-          travel industries
+          telecommunications, leisure and
+          travel industries.
         </p>
         <h2 class="font-beBetter ml-8 font-medium text-personJobSize text-personDescriptionColor mt-4">
           Strategy, Marketing and

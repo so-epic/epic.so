@@ -38,11 +38,8 @@ const ContactModal = (props) => {
       <div {...props.contactMorph}  class="modal-contact-div fixed flex-col top-0 ml-0 md:ml-64 mt-32 z-90">
         <h1 class="text-4xl text-white">Contact</h1>
         <p class="text-white mt-8">
-          We leverage big data and algorhitms to<br/>
-          uncover the full potential of your business.<br/>
-          increase retention, attract the most valuable<br/>
-          customers, and grow your company more<br/>
-          efficiently.
+          Complete the form below to send us an email.<br/>
+          We will be in touch shortly.
         </p>
         <form class="flex flex-col w-full max-w-sm mt-8 z-50">
           <div class="flex flex-col items-center border-b-2 border-white py-2">

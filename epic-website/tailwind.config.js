@@ -44,7 +44,7 @@ module.exports = {
         "personDescriptionColor": "#303030",
         "stayInTouchDescriptionColor": "#191919",
         "nameSecondaryColor": "#303030",
-       
+        "darkPurpleAccent": "#5636D0"
       },
       backgroundColor: {
         "blueButtonColor": "#0891C4",

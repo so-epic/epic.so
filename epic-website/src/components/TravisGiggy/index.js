@@ -21,17 +21,17 @@ const TravisGiggy = () => {
         </h1>
         <p class="font-beBetter ml-8 md:max-w-md font-regular text-descriptionSize text-personDescriptionColor tracking-widest leading-7 mt-4 breaking-normal">
           Travis Giggy is a serial enterpreneur in
-          Silicon Valley with more than 20 years
+          Silicon Valley with 20 years
           leading product and technology teams.
           He is a technology expert, angel investor,
-          advisor, and shareholder in many tech
+          and advisor for tech
           startups. His areas of expertise include
           databases, programming, customer
           development, product management, big 
           data analysis, and financial engineering.
         </p>
         <h2 class="font-beBetter ml-8 font-medium text-personJobSize text-personDescriptionColor mt-4">
-          Growth Expert
+          Data and Growth Expert
         </h2>
           <button class="mx-28 md:ml-8 bg-buttonColor w-40 h-6 text-white text-buttonSize font-beBetter font-medium rounded-xlg mt-8 mb-16 z-50">
             <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/travisgiggy/">See more</a>
