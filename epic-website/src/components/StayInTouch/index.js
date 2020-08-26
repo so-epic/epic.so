@@ -15,11 +15,7 @@ const StayInTouch = () => {
     <div id="stayInTouch" class="flex flex-col items-center h-full mt-32 space-y-16">
       <div class="flex flex-col items-center space-y-8">
         <h1 class="font-beBetter font-bold text-beBetterBlue text-epicTitle tracking-wider">Stay in touch</h1>
-        <p class="font-beBetter font-semibold text-stayInTouchDescriptionColor text-contactFontSize">
-          Want to know more about us while learn<br/>
-          about marketing and business strategies<br/>
-          and terms?
-        </p>
+
       </div>
 
       <img alt="" class="absolute hidden md:inline self-end right-0 mt-24" src={FingerprintSVG} />
@@ -31,14 +27,14 @@ const StayInTouch = () => {
         <div class="flex flex-col h-70 w-112 items-center bg-stayInTouchBlue rounded-xlg md:w-124">
           <img alt="" class="absolute hidden md:inline self-start" src={BlueDecorations} />
           <h2 class="self-end mt-16 md:mt-24 font-beBetter font-medium text-white text-methodologyTitleSize mr-4">Epic Newsletter</h2>
-          <p class="self-end font-beBetter font-light text-white text-contactFontSize mr-4 mt-4">Keep in touch with all news about us and<br/>the finance market</p>
+          <p class="self-end font-beBetter font-light text-white text-contactFontSize mr-4 mt-4">Learn new strategies for customer <br/>Acquisition and Retention, and<br/>Epic Labs news.</p>
           <button class="font-beBetter font-semibold text-white text-contactFontSize mt-32 z-75"><a target="_blank" rel="noopener noreferrer" href="https://epic.substack.com/subscribe?utm_source=website" >Join newsletter</a></button>
         </div>
 
         <div class="flex flex-col h-70 w-112 items-center bg-white border-2 border-epicBlue rounded-xlg md:w-124">
           <img alt="" class="absolute hidden md:inline self-end" src={WhiteDecorations} />
           <h2 class="self-start ml-4 mt-24 font-beBetter font-medium text-beBetterBlue text-methodologyTitleSize mr-4">Epic Blog</h2>
-          <p class="self-start font-beBetter font-light text-beBetterBlue text-contactFontSize ml-4 mt-8 md:mt-4 ">Every monday a new post.<br/>Check it you will love it!</p>
+          <p class="self-start font-beBetter font-light text-beBetterBlue text-contactFontSize ml-4 mt-8 md:mt-4 ">Our most recent content about<br/>customer Acquisition and Retention <br/>strategy.</p>
           <Link class="z-75" to="/blog">
             <button class="mt-16 font-beBetter font-semibold text-beBetterBlue text-contactFontSize md:mt-24">Open blog</button>
             <svg class="mt-2" xmlns="http://www.w3.org/2000/svg" width="90" height="26.01" viewBox="-30 0 90 26.01"><defs></defs><g transform="translate(0.751 0.75)">

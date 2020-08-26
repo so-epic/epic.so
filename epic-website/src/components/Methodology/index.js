@@ -36,7 +36,7 @@ const Methodology = () => {
               first step of Acquitention is a Segmentation<br/>
               and LTV cohort analysis which provides a<br/>
               clear understanding of your growth,<br/>
-              retention, custumer quality over time, and<br/>
+              retention, customer quality over time, and<br/>
               how you compare against other companies<br/>
               in your industry.
             </p>
@@ -58,13 +58,13 @@ const Methodology = () => {
             <p class="methodology-section-number ml-4 -mt-32 text-numberSize">2</p>
             <p class="ml-8 methodology-section-text">
               Step 2 digs deeper into your data to identify<br/>
-              the custumer success (and failure) patterns<br/>
+              the customer success (and failure) patterns<br/>
               which separate the best customers from<br/>
               the worst, and determine the eventual<br/>
               customer LTV. Then we connect this data to<br/>
               acquisition channels and detect<br/>
               opportunities and inefficiencies in <br/>the
-              marketing funnel. Finnaly, we use the data<br/>
+              marketing funnel. Finally, we use the data<br/>
               to identify opportunities to increase LTV.
             </p>
           </div>
@@ -84,16 +84,16 @@ const Methodology = () => {
             <p class="methodology-section-title z-10 ml-8 text-contactFontSize tracking-wider">Growth / Strategy recommendations<br/>and quantitate value creation</p>
             <p class="methodology-section-number ml-4 -mt-32 text-numberSize">3</p>
             <p class="ml-8 methodology-section-text">
-              The final step of acquitention is to<br/>
+              The final step of Acquitention is to<br/>
               implement tools and procedures to identify<br/>
               when marketing channels are on track, and<br/>
               when new clients are likely to succeed. If<br/>
               we detect that advertising or sales are not<br/>
-              perfoming as necessary, or new custumers<br/>
+              perfoming as necessary, or new customers<br/>
               are deviating from the successful customer<br/>
               path, we can give early warning and take<br/>
               recommended actions immediately before<br/>
-              it's too late
+              it's too late.
             </p>
           </div>
         </div>
