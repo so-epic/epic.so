@@ -13,6 +13,7 @@ import CurvedLines from '../../assets/images/curved-lines.svg'
 import ImgWhyThisWhyNow from '../../assets/images/green-arrows.jpg'
 import ImgCohort from '../../assets/images/111.10.30.02-cohort-expand.gif'
 import ImgCOVID from '../../assets/images/img-covid-tree.gif'
+import ImgZebras from '../../assets/images/cohorts-ii-zebras.jpg'
 
 import ProfileDecoration2 from '../../assets/images/profile-decoration2.svg'
 
@@ -61,6 +62,35 @@ const HeaderContentPage = () => {
           </p>
         </div>
 
+
+        {/* DON'T BE AVERAGE - COHORTS II */}
+        <div id="post" class="flex flex-col lg:flex-row md:items-center h-full mt-16 md:space-x-16 mb-32 md:max-w-80%">
+
+          <a target="_blank" rel="noopener noreferrer" href="https://medium.com/epiclabs/dont-be-average-follow-this-advice-for-success-in-business-analytics-2888fac61c2">
+            <div class="md:flex md:flex-col md:order-1 md:-mt-8">
+              <img class="object-contain -ml-24 md:-ml-24 inset-16 md:w-56" src={CurvedLines} alt="" />
+              <img class="z-10 -mt-40 md:mt-0 md:-mt-32 md:min-w-600px" src={ImgZebras} alt="Cohort Analysis" />
+            </div>
+          </a>
+
+          <img class="absolute hidden md:inline self-end right-0 mt-24" src={ProfileDecoration2} alt="Decoration" />
+
+          <div class="flex flex-col md:min-w-1/2 md:order-2 lg:m-2">
+            <h1 class="font-beBetter font-medium text-personNameSize md:text-5xl text-beBetterBlue leading-tight breaking-normal mt-8">
+              Don't be average! Follow this advice for success in business analytics
+            </h1>
+
+            <p class="font-beBetter md:ml-0 font-regular text-descriptionSize text-personDescriptionColor tracking-widest leading-7 mt-4 breaking-normal">
+              <i>Sep 3, 2020</i> - If you were the head chef at a highly rated restaurant, the last thing you’d want to hear is that your dishes are AVERAGE. As a manager, you are the chef of your company, and when you think about performance metrics, the last thing you want is to be average!
+            </p>
+
+            <button href="link" class="bg-buttonColor w-40 h-6 text-white text-buttonSize self-center md:self-start font-beBetter font-medium rounded-xlg mt-8 mb-16 z-50">
+              <a target="_blank" rel="noopener noreferrer" href="https://medium.com/epiclabs/dont-be-average-follow-this-advice-for-success-in-business-analytics-2888fac61c2">Read more</a>
+            </button>
+
+          </div>
+
+        </div>
 
 
         {/* WHAT IS A COHORT AND WHY SHOULD I CARE */}
