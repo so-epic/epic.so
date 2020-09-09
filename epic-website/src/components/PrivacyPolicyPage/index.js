@@ -8,6 +8,8 @@ import MenuExpanded from '../MenuExpanded'
 
 const PrivacyPolicyPage = () => {
 
+    document.title = 'Epic Labs Privacy Policy'
+
     const [openMenuExpanded, setOpenMenuExpanded] = useState(false)
 
     const menuMorph = useMorph({
