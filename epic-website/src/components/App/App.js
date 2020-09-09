@@ -8,7 +8,8 @@ import {
 } from "react-router-dom";
 
 import MainPage from '../../components/MainPage'
-import ContentPage from '../../components/ContentPage'
+import BlogPage from '../../components/BlogPage'
+import PrivacyPolicyPage from '../../components/PrivacyPolicyPage'
 
 import '../../styles/app.css'
 
@@ -21,7 +22,10 @@ const App = () => {
             <MainPage />
           </Route>
           <Route path="/blog">
-            <ContentPage />
+            <BlogPage />
+          </Route>
+          <Route path="/privacy-policy">
+            <PrivacyPolicyPage />
           </Route>
         </Switch>
       </Router>
