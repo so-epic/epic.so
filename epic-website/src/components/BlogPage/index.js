@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 
 import { useMorph, easeOut } from 'react-morph';
 
@@ -34,6 +34,11 @@ const BlogPage = () => {
       }
     });
 
+    //scroll to top of page
+    useEffect(() => {
+      window.scrollTo(0, 0)
+    }, [])
+
     return (
         <div className="flex flex-col overflow-hidden">
             <NavBar/>
@@ -41,10 +46,10 @@ const BlogPage = () => {
 
               {openMenuExpanded && (<MenuExpanded menuMorph={menuMorph} setMenuExpanded={setOpenMenuExpanded} />)}
               {!openMenuExpanded && (<MenuButton menuMorph={menuMorph} setMenuExpanded={setOpenMenuExpanded} />)}
-              <div id="blogPage" class="flex flex-col mt-16 md:mt-8 overflow-hidden justify-center md:items-center">
-                <div class="flex flex-col self-center introduction-div w-full justify-center items-center">
-                  <h1 class="font-beBetter font-bold text-beBetterSize text-beBetterBlue tracking-wider mt-16 ml-0 md:ml-0 md:text-beBetterMdSize">Featured Insights</h1>
-                  <p class="font-beBetter font-light text-descriptionSize text-beBetterBlue tracking-widest mt-4 md:ml-0 break-all  md:text-buttonSize">
+              <div id="blogPage" className="flex flex-col mt-16 md:mt-8 overflow-hidden justify-center md:items-center">
+                <div className="flex flex-col self-center introduction-div w-full justify-center items-center">
+                  <h1 className="font-beBetter font-bold text-beBetterSize text-beBetterBlue tracking-wider mt-16 ml-0 md:ml-0 md:text-beBetterMdSize">Featured Insights</h1>
+                  <p className="font-beBetter font-light text-descriptionSize text-beBetterBlue tracking-widest mt-4 md:ml-0 break-all  md:text-buttonSize">
                     Our latest thinking on the issues that matter<br/>
                     most in business and management.
                   </p>
