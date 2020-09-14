@@ -11,11 +11,8 @@ import NavBar from '../NavBar'
 import MenuButton from '../MenuButton'
 import ContactButton from '../ContactButton'
 import Introduction from '../Introduction'
-import PabloVidal from '../PabloVidal'
-import TravisGiggy from '../TravisGiggy'
 import Methodology from '../Methodology'
 import StayInTouch from '../StayInTouch'
-import Services from '../Services'
 import Footer from '../Footer'
 import ContactModal from '../ContactModal'
 import MenuExpanded from '../MenuExpanded'
@@ -71,11 +68,8 @@ const MainPage = () => {
         {!openMenuExpanded && (<MenuButton menuMorph={menuMorph} setMenuExpanded={setOpenMenuExpanded} />)}
         {!openContactModal && (<ContactButton contactMorph={contactMorph} setContactModal = {setOpenContactModal} />)}
         <Introduction setContactModal={setOpenContactModal} />
-        <PabloVidal/>
-        <TravisGiggy />
         <Methodology />
         <StayInTouch />
-        <Services setContactModal={setOpenContactModal} />
         <Footer />
         {emailSent && (<ToastContainer />)}
       </div>    

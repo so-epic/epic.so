@@ -10,6 +10,7 @@ import {
 import MainPage from '../../components/MainPage'
 import BlogPage from '../../components/BlogPage'
 import PrivacyPolicyPage from '../../components/PrivacyPolicyPage'
+import AboutUsPage from '../../components/AboutUs'
 
 import '../../styles/app.css'
 
@@ -26,6 +27,9 @@ const App = () => {
           </Route>
           <Route path="/privacy-policy">
             <PrivacyPolicyPage />
+          </Route>
+          <Route path="/about-us">
+            <AboutUsPage />
           </Route>
         </Switch>
       </Router>

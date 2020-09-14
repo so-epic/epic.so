@@ -6744,7 +6744,7 @@ video {
 }
 
 .text-personNameMdSize {
-  font-size: 80px;
+  font-size: 60px;
 }
 
 .text-personJobSize {
@@ -21450,7 +21450,7 @@ video {
   }
 
   .sm\:text-personNameMdSize {
-    font-size: 80px;
+    font-size: 60px;
   }
 
   .sm\:text-personJobSize {
@@ -36157,7 +36157,7 @@ video {
   }
 
   .md\:text-personNameMdSize {
-    font-size: 80px;
+    font-size: 60px;
   }
 
   .md\:text-personJobSize {
@@ -50864,7 +50864,7 @@ video {
   }
 
   .lg\:text-personNameMdSize {
-    font-size: 80px;
+    font-size: 60px;
   }
 
   .lg\:text-personJobSize {
@@ -65571,7 +65571,7 @@ video {
   }
 
   .xl\:text-personNameMdSize {
-    font-size: 80px;
+    font-size: 60px;
   }
 
   .xl\:text-personJobSize {

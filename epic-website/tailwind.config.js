@@ -28,7 +28,7 @@ module.exports = {
         "beBetterSize": "35px",
         "descriptionSize": "14px",
         "personNameSize": "40px",
-        "personNameMdSize": "80px",
+        "personNameMdSize": "60px",
         "personJobSize": "22px",
         "contactFontSize": "16px",
         "menuFontSize": "10px",

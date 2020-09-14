@@ -16,7 +16,7 @@ const PabloVidal = () => {
       <div className="flex flex-col md:min-w-1/2 self-start">
         <h1 className="font-beBetter ml-8 font-medium text-personNameSize md:text-personNameMdSize text-beBetterBlue leading-tight mt-8">
           <span>Pablo </span>
-          <span className="text-nameSecondaryColor">Vidal<br></br>Areán</span>
+          <span className="text-nameSecondaryColor">Vidal Areán</span>
         </h1>
         <p className="font-beBetter ml-8 md:max-w-md font-regular text-descriptionSize text-personDescriptionColor tracking-widest leading-7 mt-4 breaking-normal">
           Pablo Vidal Arean is an accomplished
