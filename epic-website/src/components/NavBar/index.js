@@ -18,7 +18,6 @@ const NavBar = () => {
         <div className="flex flex-no-wrap text-md space-x-8 text-personDescriptionColor">
           <Link smooth to="/#home">Home</Link>
           <Link smooth to="/#methodology">Our methodology</Link>
-          <Link smooth to="/#benefits">Benefits</Link>
           <Link smooth to="/about-us">About us</Link>
           <Link smooth  to="/#stayInTouch">Contact Us</Link>
           <Link smooth to="/blog">Blog</Link>
